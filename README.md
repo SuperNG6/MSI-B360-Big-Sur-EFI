@@ -13,7 +13,7 @@ macOS High Sierra 10.14.1
 
 Clover version:4767
 
-WhateverGreen version:1.2.3
+WhateverGreen version:1.2.4
 
 HibernationFixup version:1.2.3
 
