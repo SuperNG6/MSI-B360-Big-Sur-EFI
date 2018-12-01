@@ -109,6 +109,15 @@
 			<key>SuspendOverride</key>
 			<false/>
 		</dict>
+		<key>DropTables</key>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>UIAC-ALL</string>
+			</dict>
+		</array>
 		<key>FixHeaders</key>
 		<false/>
 		<key>HaltEnabler</key>
