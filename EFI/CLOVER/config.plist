@@ -169,13 +169,25 @@
 		<dict>
 			<key>AFGLowPowerState</key>
 			<false/>
-			<key>Inject</key>
-			<integer>2</integer>
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
 		<key>LANInjection</key>
 		<false/>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>device-id</key>
+				<data>
+				cKEAAA==
+				</data>
+				<key>layout-id</key>
+				<data>
+				AQAAAA==
+				</data>
+			</dict>
+		</dict>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
