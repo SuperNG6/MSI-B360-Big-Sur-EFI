@@ -15,6 +15,8 @@ Clover version:4767
 
 WhateverGreen version:1.2.4
 
+USB3.0 5G add DSDT
+
 HibernationFixup version:1.2.3
 
 Lilu version:1.2.8
