@@ -9,7 +9,7 @@ SMBIOS:2018 Mac mini
 
 MSI b360m mortar Hackintosh EFI FILE
 
-macOS Mojave 10.14.3
+macOS Mojave 10.14.2
 
 Clover version:4784
 
