@@ -7,7 +7,7 @@ SSD:SAM 960PRO
 SMBIOS:2018 Mac mini
 
 
-MSI b360m mortar Hackintosh EFI FILE
+MSI B360m Mortar Hackintosh EFI FILE
 
 macOS Mojave 10.14.2
 
