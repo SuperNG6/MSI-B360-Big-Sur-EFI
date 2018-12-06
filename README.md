@@ -21,4 +21,6 @@ HibernationFixup version:1.2.3
 
 Lilu version:1.2.8
 
-AppleALC:1.3.2
+AppleALC:1.3.3
+
+Detail:http://sleele.com/2018/12/01/msi-b360-mortar-macos-mojave-黑苹果efi/
