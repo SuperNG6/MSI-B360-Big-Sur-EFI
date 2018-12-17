@@ -1,4 +1,4 @@
-# MSI-b360-10.14.1-EFI
+# MSI-b360-10.14.2-EFI
 Hackintosh EFI FILE
 
 CPU:i5 8400
@@ -7,11 +7,11 @@ SSD:SAM 960PRO
 SMBIOS:2018 Mac mini
 
 
-MSI b360m mortar Hackintosh EFI FILE
+MSI B360m Mortar Hackintosh EFI FILE
 
-macOS Mojave 10.14.1
+macOS Mojave 10.14.2
 
-Clover version:4767
+Clover version:4784
 
 WhateverGreen version:1.2.4
 
