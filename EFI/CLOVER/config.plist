@@ -142,7 +142,7 @@
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>Macintosh HD</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -297,7 +297,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>USB Port limit patch 10.14.1 10.14.2 Beta by DalianSky</string>
+				<string>USB Port limit patch</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -307,7 +307,7 @@
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
-				<string>10.14.1,10.14.2</string>
+				<string>10.14.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
@@ -345,7 +345,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C07815100J9CB</string>
+		<string>C07847310GU1H</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -375,9 +375,9 @@
 		<key>ProductName</key>
 		<string>Macmini8,1</string>
 		<key>SerialNumber</key>
-		<string>C07WKAZNJYVX</string>
+		<string>C07XQ5Z5JYVX</string>
 		<key>SmUUID</key>
-		<string>60338F9F-2B84-48FB-B75D-59CDD25B05E5</string>
+		<string>B4C0EED3-2F09-435C-A149-F1073FB09F5D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
