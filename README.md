@@ -11,16 +11,16 @@ MSI B360m Mortar Hackintosh EFI FILE
 
 macOS Mojave 10.14.2
 
-Clover version:4784
+Clover version:4813
 
-WhateverGreen version:1.2.4
+WhateverGreen version:1.2.6
 
 USB3.0 5G add DSDT
 
-HibernationFixup version:1.2.3
+HibernationFixup version:1.2.4
 
-Lilu version:1.2.8
+Lilu version:1.3.0
 
-AppleALC:1.3.3
+AppleALC:1.3.4
 
 Detail:http://sleele.com/2018/12/01/msi-b360-mortar-macos-mojave-黑苹果efi/
