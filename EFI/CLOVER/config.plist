@@ -237,7 +237,6 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Windows</string>
 			<string>BOOTX64.EFI</string>
 			<string>Recovery HD</string>
 			<string>Preboot</string>
