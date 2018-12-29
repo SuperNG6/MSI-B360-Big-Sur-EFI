@@ -15,11 +15,11 @@ macOS Mojave 10.14.2
 
 Clover version:4813
 
-WhateverGreen version:1.2.6
+WhateverGreen 1.2.6
 
 USB3.0 5G add DSDT
 
-HibernationFixup version:1.2.4
+HibernationFixup 1.2.4
 
 Lilu version:1.3.0
 
