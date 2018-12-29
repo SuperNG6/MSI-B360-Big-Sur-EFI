@@ -11,7 +11,7 @@ MSI B360m Mortar Hackintosh EFI FILE
 
 macOS Mojave 10.14.2
 
-Clover version:4798
+Clover version:4784
 
 WhateverGreen version:1.2.4
 
