@@ -34,7 +34,7 @@ AppleALC:1.3.4
 
 Detail:http://sleele.com/2018/12/01/msi-b360-mortar-macos-mojave-黑苹果efi/
 
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-3.png)
+![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-5.png)
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-2.png)
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-8.png)
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-6.png)
