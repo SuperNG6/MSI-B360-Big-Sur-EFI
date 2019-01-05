@@ -8,6 +8,8 @@ If your USB is not available, try another EFI.
 https://github.com/SuperNG6/MSI-b360-10.14.2-EFI/tree/MSI-b360-10.14.2-EFI-USBPort
 
 
+
+
 CPU:i5 8400
 GPU:UHD630
 SSD:SAM 960PRO
