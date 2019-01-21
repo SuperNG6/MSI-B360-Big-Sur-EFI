@@ -1,6 +1,9 @@
 # Update 2019/01/21
 
-### If your USB is not available, try another EFI.
+
+### It is highly recommended to upgrade to the latest version to solve USB problems
+
+## If your USB is not available, try another EFI.
 
 https://github.com/SuperNG6/MSI-b360-10.14.2-EFI/tree/MSI-b360-10.14.2-EFI-USBPort
 
