@@ -109,15 +109,6 @@
 			<key>SuspendOverride</key>
 			<false/>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>UIAC-ALL</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
 		<false/>
 		<key>HaltEnabler</key>
@@ -298,7 +289,7 @@
 				<key>Comment</key>
 				<string>USB Port limit patch 10.14.1 10.14.2 Beta by DalianSky</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPD4OPBAAA
@@ -312,6 +303,46 @@
 				<key>Replace</key>
 				<data>
 				g/sPkJCQkJCQ
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB port limit patch 10.14.1 10.14.2</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AOCD+w8PhxYEAA==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>
+				AOCD+z8PhxYEAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port limit patch 10.14.1, 10.14.2</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AACD+w8Pg48EAAA=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				AACD+z8Pg48EAAA=
 				</data>
 			</dict>
 		</array>
