@@ -1,9 +1,9 @@
 # MSI-b360-10.14.2-EFI
 Hackintosh EFI FILE
 
-Update 2018/12/29
+# Update 2019/01/21
 
-If your USB is not available, try another EFI.
+### If your USB is not available, try another EFI.
 
 https://github.com/SuperNG6/MSI-b360-10.14.2-EFI/tree/MSI-b360-10.14.2-EFI-USBPort
 
@@ -24,7 +24,9 @@ Clover version:4813
 
 WhateverGreen 1.2.6
 
-USB3.0 5G add DSDT
+Drop DSDT
+
+//USB3.0 5G add DSDT
 
 HibernationFixup 1.2.4
 
