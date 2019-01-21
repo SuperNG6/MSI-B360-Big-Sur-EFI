@@ -1,6 +1,3 @@
-# MSI-b360-10.14.2-EFI
-Hackintosh EFI FILE
-
 # Update 2019/01/21
 
 ### If your USB is not available, try another EFI.
