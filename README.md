@@ -18,7 +18,7 @@ SMBIOS:2018 Mac mini
 
 MSI B360m Mortar Hackintosh EFI FILE
 
-macOS Mojave 10.14.2
+macOS Mojave 10.14.3
 
 Clover version:4813
 
@@ -30,7 +30,7 @@ Drop DSDT
 
 HibernationFixup 1.2.4
 
-Lilu version:1.3.0
+Lilu version:1.3.1
 
 AppleALC:1.3.4
 
