@@ -1,4 +1,4 @@
-# Update 2019/01/21
+# Update 2019/01/24
 
 
 ### It is highly recommended to upgrade to the latest version to solve USB problems
