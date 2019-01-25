@@ -28,7 +28,7 @@ MSI B360m Mortar Hackintosh EFI FILE
 
     WhateverGreen 1.2.6
 
-    USB3.0 5G (Drop DSDT)
+    USB3.0 5G (drop DSDT)
 
     //USB3.0 5G add DSDT
 
