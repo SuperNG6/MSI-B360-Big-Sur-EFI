@@ -1,5 +1,9 @@
-# Update 2019/01/24
+# Update 2019/01/25
 
+
+
+### Fix Audio (Layout ID 15) and use Hackintool driver UHD630
+    Update Clover version 4862 support macOS 10.14.4 beta1
 
 ### It is highly recommended to upgrade to the latest version to solve USB problems
 
@@ -18,21 +22,21 @@ SMBIOS:2018 Mac mini
 
 MSI B360m Mortar Hackintosh EFI FILE
 
-macOS Mojave 10.14.3
+    macOS Mojave 10.14.3
 
-Clover version:4844
+    Clover version:4844
 
-WhateverGreen 1.2.6
+    WhateverGreen 1.2.6
 
-Drop DSDT
+    Drop DSDT
 
-//USB3.0 5G add DSDT
+    //USB3.0 5G add DSDT
 
-HibernationFixup 1.2.4
+    HibernationFixup 1.2.4
 
-Lilu version:1.3.1
+    Lilu version:1.3.1
 
-AppleALC:1.3.4
+    AppleALC:1.3.4
 
 Detail:http://sleele.com/2018/12/01/msi-b360-mortar-macos-mojave-黑苹果efi/
 
