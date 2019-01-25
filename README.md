@@ -1,4 +1,4 @@
-# Update 2019/01/21
+# Update 2019/01/24
 
 
 ### It is highly recommended to upgrade to the latest version to solve USB problems
@@ -20,7 +20,7 @@ MSI B360m Mortar Hackintosh EFI FILE
 
 macOS Mojave 10.14.3
 
-Clover version:4813
+Clover version:4844
 
 WhateverGreen 1.2.6
 
