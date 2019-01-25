@@ -2,7 +2,7 @@
 
 
 
-### Fix Audio (Layout ID 15) and Hackintool driver UHD630
+### Fix Audio (Layout ID 15) and use Hackintool driver UHD630
     Update Clover version 4862 support macOS 10.14.4 beta1
 
 ### It is highly recommended to upgrade to the latest version to solve USB problems
