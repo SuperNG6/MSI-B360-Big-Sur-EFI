@@ -171,11 +171,11 @@
 			<dict>
 				<key>device-id</key>
 				<data>
-				cKEAAA==
+				cJ0AAA==
 				</data>
 				<key>layout-id</key>
 				<data>
-				AQAAAA==
+				DwAAAA==
 				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
@@ -187,14 +187,6 @@
 				<key>device-id</key>
 				<data>
 				mz4AAA==
-				</data>
-				<key>framebuffer-con3-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con3-flags</key>
-				<data>
-				AAAAAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
