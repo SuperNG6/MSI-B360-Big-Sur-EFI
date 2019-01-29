@@ -38,7 +38,8 @@ MSI B360m Mortar Hackintosh EFI FILE
 
     AppleALC:1.3.4
 
-Detail:http://sleele.com/2018/12/01/hackintosh/
+# Detail:
+    http://sleele.com/2018/12/01/hackintosh/
 
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-5.png)
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-2.png)
