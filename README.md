@@ -40,6 +40,7 @@ MSI B360m Mortar Hackintosh EFI FILE
     
 ### Please use DP, all B360 motherboards can not use HDMI
 ### Recommend BIOS version 7B23v12,the latest version is not compatible
+MSI B360 BIOS download link https://cn.msi.com/Motherboard/support/B360M-MORTAR
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/BIOS.png)
 
 # Detail:
