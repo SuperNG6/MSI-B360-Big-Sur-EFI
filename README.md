@@ -45,6 +45,11 @@ MSI B360m Mortar Hackintosh EFI FILE
 
     AppleALC:1.3.6
     
+    
+# Recommend to modify your SMBIOS
+Link of tutorial：http://sleele.com/2019/03/21/smbios/
+![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/SMBIOS.png)
+    
 ### Recommend BIOS version 7B23v12
 MSI B360 BIOS download link https://cn.msi.com/Motherboard/support/B360M-MORTAR
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/BIOS.png)
