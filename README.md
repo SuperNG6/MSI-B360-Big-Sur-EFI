@@ -4,7 +4,7 @@
 
 ### 2019/03/25
     
-    1、Update Clover 4903 Support macOS Mojave 10.14.4
+    1、Update Clover 4895 Support macOS Mojave 10.14.4
     2、Compatible with the latest BIOS version && Support DP、HDMI、DVI
     3、Update USB Patches
     4、Replace VBoxHfs-64.efi with HFSPlus.efi
@@ -33,7 +33,7 @@ MSI B360m Mortar Hackintosh EFI FILE
 
     macOS Mojave 10.14.4
 
-    Clover version:4903
+    Clover version:4895
 
     WhateverGreen 1.2.7
 
