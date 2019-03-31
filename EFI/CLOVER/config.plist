@@ -108,7 +108,7 @@
 					<key>Comment</key>
 					<string>Fix RTC _STA bug</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					oAqTU1RBUwE=
