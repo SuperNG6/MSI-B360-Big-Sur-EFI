@@ -1,6 +1,11 @@
-# Update 2019/03/25
+# Update 2019/03/28
 
 ## Changelog
+
+### 2019/03/28
+
+    1、Exclude new framebuffer patchers because of its instability
+    2、Do not support HDMI、DVI for the moment
 
 ### 2019/03/25
     
