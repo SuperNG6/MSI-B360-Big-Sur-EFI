@@ -1,7 +1,11 @@
-# Update 2019/03/31
+# Update 2019/04/13
 
 ## Changelog
 
+### 2019/04/13
+
+    Update Clover 4919 && Support HDMI、DVI
+    
 ### 2019/03/31
 
     1.Update Clover 4915 fix applertc patch for 10.14.4+. thanks to RodionS
