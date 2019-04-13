@@ -1,6 +1,12 @@
-# Update 2019/03/28
+# Update 2019/03/31
 
 ## Changelog
+
+### 2019/03/31
+
+    1.Update Clover 4915 fix applertc patch for 10.14.4+. thanks to RodionS
+      Cleanup iGPU values and fix force reboot when wakes up with an HDMI connected in 10.14+
+    2.Remove ‘Fix RTC _STA bug’ patch
 
 ### 2019/03/28
 
