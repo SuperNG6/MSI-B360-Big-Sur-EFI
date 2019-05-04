@@ -1,6 +1,13 @@
-# Update 2019/04/13
+# Update 2019/05/04
 
 ## Changelog
+
+### 2019/05/04
+
+    1、Update Clover 4925
+    2、Replace FakeSMC with VirtualSMC
+    3、Add SMCProcessor.kext、SMCSuperIO.kext
+    4、Remove HibernationFixup.kext
 
 ### 2019/04/13
 
