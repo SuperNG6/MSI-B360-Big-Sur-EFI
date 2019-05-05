@@ -70,20 +70,19 @@ MSI B360m Mortar Hackintosh EFI FILE
     
     
 # Recommend to modify your SMBIOS
-Link of tutorial：http://sleele.com/2019/03/21/smbios/
+Link of tutorial：https://sleele.com/2019/03/21/smbios/
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/SMBIOS.png)
-    
+
 ### Recommend BIOS version 7B23v12
 MSI B360 BIOS download link https://cn.msi.com/Motherboard/support/B360M-MORTAR
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/BIOS.png)
 
 ### hackintosh PCI Devices setting
 Link of tutorial：https://sleele.com/2019/05/05/hackintosh-pcidevices/
-
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-14.png)
 
 # Detail:
- [My Blog: sleele.com/2018/12/01/hackintosh/ ](http://sleele.com/2018/12/01/hackintosh/ "Blog")
+ [My Blog: sleele.com/2018/12/01/hackintosh/ ](https://sleele.com/2018/12/01/hackintosh/ "Blog")
 
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-5.png)
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-2.png)
