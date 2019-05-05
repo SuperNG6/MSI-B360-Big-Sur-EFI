@@ -12,7 +12,7 @@
 
 ### 2019/04/13
 
-    Update Clover 4919 && Support HDMI、DVI
+    1、Update Clover 4919 && Support HDMI、DVI
     
 ### 2019/03/31
 
