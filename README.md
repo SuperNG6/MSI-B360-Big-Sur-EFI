@@ -77,6 +77,11 @@ Link of tutorial：http://sleele.com/2019/03/21/smbios/
 MSI B360 BIOS download link https://cn.msi.com/Motherboard/support/B360M-MORTAR
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/BIOS.png)
 
+### hackintosh PCI Devices setting
+Link of tutorial：https://sleele.com/2019/05/05/hackintosh-pcidevices/
+
+![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-14.png)
+
 # Detail:
  [My Blog: sleele.com/2018/12/01/hackintosh/ ](http://sleele.com/2018/12/01/hackintosh/ "Blog")
 
