@@ -8,6 +8,7 @@
     2、Replace FakeSMC with VirtualSMC
     3、Add SMCProcessor.kext、SMCSuperIO.kext
     4、Remove HibernationFixup.kext
+    5、Improve performance and stability
 
 ### 2019/04/13
 
