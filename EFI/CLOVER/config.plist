@@ -177,6 +177,8 @@
 		<dict>
 			<key>AFGLowPowerState</key>
 			<false/>
+			<key>Inject</key>
+			<string>No</string>
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
