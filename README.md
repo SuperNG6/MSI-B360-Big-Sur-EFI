@@ -1,7 +1,12 @@
-# Update 2019/05/04
+# Update 2019/05/14
 
 ## Changelog
 
+### 2019/05/14
+
+    1、Update Clover 4928 && Update AppleALC 1.3.7
+    2、Support macOS Mojave 10.14.5
+    
 ### 2019/05/04
 
     1、Update Clover 4925
