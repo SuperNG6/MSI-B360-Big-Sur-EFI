@@ -1,13 +1,17 @@
-# Update 2019/05/22
-
-# Download
-https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/releases
+# Update 2019/06/01
 
 # Wiki
 
 https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
 ## Changelog
+
+### 2019/06/01
+
+    1、Update Clover 4937
+    2、Replace IntelMausiEthernet with IntelMausi && Improve USB performance and stability
+    3、Update VirtualSMC 1.0.4 && remove SMCSuperIO.kext
+    4、Update AppleALC 1.3.8 && Lilu 1.3.6 WhateverGreen 1.2.9
 
 ### 2019/05/14
 
