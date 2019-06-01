@@ -197,7 +197,7 @@
 				AQAAAA==
 				</data>
 				<key>model</key>
-				<string>Family HD Audio Controller</string>
+				<string>Family HD Audio Controller1</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
