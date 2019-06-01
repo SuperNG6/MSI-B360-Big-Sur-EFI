@@ -12,6 +12,7 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
     2、Replace IntelMausiEthernet with IntelMausi && Improve USB performance and stability
     3、Update VirtualSMC 1.0.4 && remove SMCSuperIO.kext
     4、Update AppleALC 1.3.8 && Lilu 1.3.6 WhateverGreen 1.2.9
+    5、Add PCI Devices info && Fix mic
 
 ### 2019/05/14
 
