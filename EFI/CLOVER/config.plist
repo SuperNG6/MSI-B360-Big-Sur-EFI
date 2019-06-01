@@ -188,14 +188,16 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
-				<key>device-id</key>
-				<data>
-				cJ0AAA==
-				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>Audio device</string>
 				<key>layout-id</key>
 				<data>
-				DwAAAA==
+				AQAAAA==
 				</data>
+				<key>model</key>
+				<string>Family HD Audio Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -203,10 +205,14 @@
 				<data>
 				BwCbPg==
 				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
 				<key>device-id</key>
 				<data>
 				mz4AAA==
 				</data>
+				<key>device_type</key>
+				<string>Display controller</string>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
@@ -259,6 +265,8 @@
 				<data>
 				AAAAgA==
 				</data>
+				<key>model</key>
+				<string>UHD Graphics 630</string>
 			</dict>
 		</dict>
 		<key>USB</key>
