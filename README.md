@@ -6,6 +6,10 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
 ## Changelog
 
+### 2019/06/07
+
+    1、Update Clover 4952 && Update USB Patches
+
 ### 2019/06/04
 
     1、Update Clover 4940 && Support macOS Catalina Beta
