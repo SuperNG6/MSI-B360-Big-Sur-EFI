@@ -7,8 +7,6 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
 # Info
 
-MSI B360M Mortar Hackintosh EFI FILE
-
     CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
     
     macOS Catalina 10.14.5
