@@ -4,6 +4,32 @@
 
 https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
+
+# Info
+
+MSI B360M Mortar Hackintosh EFI FILE
+
+    CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
+    
+    macOS Catalina 10.14.5
+
+    Clover 4952
+    
+    AppleALC 1.3.8
+    
+    IntelMausi 1.0.0
+    
+    Lilu 1.3.6
+    
+    SMCProcessor 1.0.4
+    
+    USBInjectAll 0.7.1
+    
+    VirtualSMC 1.0.4
+    
+    WhateverGreen 1.2.9
+    
+
 ## Changelog
 
 ### 2019/06/07
@@ -67,42 +93,6 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
     3、It is highly recommended to upgrade to the latest version to solve USB problems
 
 
-
-
-
-
-CPU:i5 8400
-GPU:UHD630
-SSD:SAM 960PRO
-SMBIOS:2018 Mac mini
-
-
-MSI B360M Mortar Hackintosh EFI FILE
-
-    macOS Catalina 10.14.5
-
-    Clover 4952
-    
-    AppleALC 1.3.8
-    
-    IntelMausi 1.0.0
-    
-    Lilu 1.3.6
-    
-    SMCProcessor 1.0.4
-    
-    USBInjectAll 0.7.1
-    
-    VirtualSMC 1.0.4
-    
-    WhateverGreen 1.2.9
-    
-    
-    
-    
-
-
-    
     
 # Recommend to modify your SMBIOS
 Link of tutorial：https://sleele.com/2019/03/21/smbios/
