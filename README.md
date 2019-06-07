@@ -10,6 +10,30 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/tree/preview
 
 https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
+# Info
+
+    CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
+    
+    macOS Catalina 10.14.5
+
+    Clover 4928
+    
+    AppleALC 1.3.7
+    
+    IntelMausi 1.0.0
+    
+    Lilu 1.3.6
+    
+    SMCProcessor 1.0.4
+    
+    USBInjectAll 0.7.1
+    
+    VirtualSMC 1.0.4
+    
+    WhateverGreen 1.2.9
+    
+
+
 ## Changelog
 
 ### 2019/05/14
@@ -58,31 +82,6 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
 
 
-
-
-
-CPU:i5 8400
-GPU:UHD630
-SSD:SAM 960PRO
-SMBIOS:2018 Mac mini
-
-
-MSI B360m Mortar Hackintosh EFI FILE
-
-    macOS Mojave 10.14.4
-
-    Clover version:4895
-
-    WhateverGreen 1.2.7
-
-    USB3.0 5G
-
-    HibernationFixup 1.2.4
-
-    Lilu version:1.3.5
-
-    AppleALC:1.3.6
-    
     
 # Recommend to modify your SMBIOS
 Link of tutorial：https://sleele.com/2019/03/21/smbios/
