@@ -9,7 +9,7 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
     CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
     
-    macOS Catalina 10.14.5
+    macOS Catalina 10.15
 
     Clover 4952
     
