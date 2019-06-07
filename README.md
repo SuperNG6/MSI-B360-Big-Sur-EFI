@@ -77,21 +77,31 @@ SSD:SAM 960PRO
 SMBIOS:2018 Mac mini
 
 
-MSI B360m Mortar Hackintosh EFI FILE
+MSI B360M Mortar Hackintosh EFI FILE
 
-    macOS Mojave 10.14.4
+    macOS Catalina 10.14.5
 
-    Clover version:4895
+    Clover 4952
+    
+    AppleALC 1.3.8
+    
+    IntelMausi 1.0.0
+    
+    Lilu 1.3.6
+    
+    SMCProcessor 1.0.4
+    
+    USBInjectAll 0.7.1
+    
+    VirtualSMC 1.0.4
+    
+    WhateverGreen 1.2.9
+    
+    
+    
+    
 
-    WhateverGreen 1.2.7
 
-    USB3.0 5G
-
-    HibernationFixup 1.2.4
-
-    Lilu version:1.3.5
-
-    AppleALC:1.3.6
     
     
 # Recommend to modify your SMBIOS
