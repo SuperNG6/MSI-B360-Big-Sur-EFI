@@ -1,4 +1,4 @@
-# Update 2019/06/07
+# Update 2019/06/23
 
 # Wiki
 
@@ -11,24 +11,32 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
     
     macOS Catalina 10.15
 
-    Clover 4952
+    Clover 4959
     
-    AppleALC 1.3.8
+    AppleALC 1.3.9
     
     IntelMausi 1.0.0
     
-    Lilu 1.3.6
+    Lilu 1.3.7
     
-    SMCProcessor 1.0.4
+    SMCProcessor 1.0.5
     
     USBInjectAll 0.7.1
     
-    VirtualSMC 1.0.4
+    VirtualSMC 1.0.5
     
-    WhateverGreen 1.2.9
+    WhateverGreen 1.3.0
     
 
 ## Changelog
+
+### 2019/06/23
+
+    1、Update Clover 4969 && Support macOS Catalina Beta2
+    2、Update VirtualSMC 1.0.5
+    3、Update WhateverGreen 1.3.0
+    4、Update Lilu 1.3.7
+    5、AppleALC 1.3.9
 
 ### 2019/06/07
 
