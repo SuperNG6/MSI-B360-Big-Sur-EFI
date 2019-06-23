@@ -37,7 +37,7 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
     3、Update WhateverGreen 1.3.0
     4、Update Lilu 1.3.7
     5、AppleALC 1.3.9
-    6、Replace OsxAptioFixDrv-64.efi with OsxAptioFix2Drv-free2000.efi
+    6、Replace OsxAptioFixDrv-64.efi with OsxAptioFix2Drv-free2000.efi & Enhanced compatibility
 
 ### 2019/06/07
 
