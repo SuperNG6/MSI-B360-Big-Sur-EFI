@@ -1,4 +1,4 @@
-# Update 2019/06/04
+# Update 2019/06/24
 
 # Download
 https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/releases
@@ -16,15 +16,13 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
     
     macOS Mojave 10.14.5
 
-    Clover 4928
+    Clover 4934
     
     AppleALC 1.3.7
     
     IntelMausi 1.0.0
     
     Lilu 1.3.6
-    
-    SMCProcessor 1.0.4
     
     USBInjectAll 0.7.1
     
@@ -35,6 +33,12 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
 
 ## Changelog
+
+### 2019/06/24
+
+    1、Support latest BIOS version 1.60
+    2、Update Clover 4934
+    3、Replace OsxAptioFixDrv-64.efi with OsxAptioFix2Drv-free2000.efi & Enhanced compatibility
 
 ### 2019/05/14
 
