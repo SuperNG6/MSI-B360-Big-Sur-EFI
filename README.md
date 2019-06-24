@@ -39,6 +39,7 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
     1、Support latest BIOS version 1.60
     2、Update Clover 4934
     3、Replace OsxAptioFixDrv-64.efi with OsxAptioFix2Drv-free2000.efi & Enhanced compatibility
+    4、Contain more updates
 
 ### 2019/05/14
 
