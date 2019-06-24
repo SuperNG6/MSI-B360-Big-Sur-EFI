@@ -106,7 +106,7 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>Fix RTC _STA bug</string>
+					<string>Fix MSI B360M Mortal DSDT Device(RTC) bug on BIOS v1.60 (credit pupin)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -489,7 +489,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>

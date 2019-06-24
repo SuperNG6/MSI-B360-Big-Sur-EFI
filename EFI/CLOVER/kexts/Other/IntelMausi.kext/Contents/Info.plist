@@ -5,19 +5,19 @@
 	<key>BuildMachineOSBuild</key>
 	<string>17D102</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>SMCSuperIO</string>
+	<string>IntelMausi</string>
 	<key>CFBundleIdentifier</key>
-	<string>ru.joedm.SMCSuperIO</string>
+	<string>as.acidanthera.mieze.IntelMausi</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>SMCSuperIO</string>
+	<string>IntelMausi</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.3</string>
+	<string>1.0.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +25,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.3</string>
+	<string>1.0.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -42,48 +42,48 @@
 	<string>9F2000</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>ru.joedm.SMCSuperIO</key>
+		<key>IntelMausi</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>ru.joedm.SMCSuperIO</string>
+			<string>as.acidanthera.mieze.IntelMausi</string>
+			<key>Driver_Version</key>
+			<string>1.0.0</string>
 			<key>IOClass</key>
-			<string>SMCSuperIO</string>
-			<key>IOMatchCategory</key>
-			<string>SMCSuperIO</string>
-			<key>IOPCIClassMatch</key>
-			<string>0x06010000&amp;0xffff0000</string>
+			<string>IntelMausi</string>
+			<key>IOPCIMatch</key>
+			<string>0x10EA8086 0x10EB8086 0x10EF8086 0x10F08086 0x15028086 0x15038086 0x153A8086 0x153B8086 0x155A8086 0x15598086 0x15A08086 0x15A18086 0x15A28086 0x15A38086 0x156F8086 0x15708086 0x15B78086 0x15B88086 0x15D78086 0x15D88086 0x15E38086 0x15D68086 0x15BD8086 0x15BE8086 0x15BB8086 0x15BC8086 0x15DF8086 0x15E08086 0x15E18086 0x15E28086</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
-			<key>IOResourceMatch</key>
-			<string>ACPI</string>
+			<key>enableCSO6</key>
+			<true/>
+			<key>enableTSO4</key>
+			<false/>
+			<key>enableTSO6</key>
+			<false/>
+			<key>maxIntrRate</key>
+			<integer>7000</integer>
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2018 joedm. All rights reserved.</string>
-	<key>OSBundleCompatibleVersion</key>
-	<string>1.0</string>
+	<string>Copyright © 2014 Laura Müller. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>as.vit9696.Lilu</key>
-		<string>1.2.0</string>
-		<key>as.vit9696.VirtualSMC</key>
-		<string>1.0.0</string>
-		<key>com.apple.iokit.IOACPIFamily</key>
-		<string>1.0.0d1</string>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>1.5.0</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.7</string>
 		<key>com.apple.kpi.bsd</key>
-		<string>12.0.0</string>
-		<key>com.apple.kpi.dsep</key>
-		<string>12.0.0</string>
+		<string>8.10.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>12.0.0</string>
+		<string>8.10.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>12.0.0</string>
+		<string>8.10.0</string>
 		<key>com.apple.kpi.mach</key>
-		<string>12.0.0</string>
-		<key>com.apple.kpi.unsupported</key>
-		<string>12.0.0</string>
+		<string>8.10.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
-	<string>Root</string>
+	<string>Network-Root</string>
 </dict>
 </plist>
