@@ -19,8 +19,6 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
     
     Lilu 1.3.7
     
-    SMCProcessor 1.0.5
-    
     USBInjectAll 0.7.1
     
     VirtualSMC 1.0.5
