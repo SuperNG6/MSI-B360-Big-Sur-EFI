@@ -92,7 +92,7 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 Link of tutorial：https://sleele.com/2019/03/21/smbios/
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/SMBIOS.png)
 
-### Recommend BIOS version 7B23v12
+### Recommend BIOS version 7B23v16
 MSI B360 BIOS download link https://cn.msi.com/Motherboard/support/B360M-MORTAR
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/BIOS.png)
 
