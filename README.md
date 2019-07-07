@@ -18,21 +18,25 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
     Clover 4934
     
-    AppleALC 1.3.7
+    AppleALC 1.3.9
     
     IntelMausi 1.0.0
     
-    Lilu 1.3.6
+    Lilu 1.3.7
     
     USBInjectAll 0.7.1
     
-    VirtualSMC 1.0.4
+    VirtualSMC 1.0.6
     
-    WhateverGreen 1.2.9
+    WhateverGreen 1.3.0
     
 
 
 ## Changelog
+
+### 2019/0/07
+
+    1、Update Kext && VirtualSMC
 
 ### 2019/06/24
 
