@@ -1,4 +1,4 @@
-# Update 2019/06/24
+# Update 2019/07/07
 
 # Download
 https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/releases
