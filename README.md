@@ -1,10 +1,13 @@
-# Update 2019/06/24
+# Update 2019/07/14
 
 # Download
 https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/releases
 
 # Preview
 https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/tree/preview
+
+# Getting Started Tutorials & Documentation
+https://sleele.com/2019/07/14/gettingstartedtutorial/
 
 # Wiki
 
