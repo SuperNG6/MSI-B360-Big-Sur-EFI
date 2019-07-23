@@ -1,18 +1,18 @@
-# Update 2019/07/14
+# Update 2019/07/23
 
 # Getting Started Tutorials & Documentation
 https://sleele.com/2019/07/14/gettingstartedtutorial/
 
 # Download
-https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/releases
+https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/releases
 
 # Preview
-https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/tree/preview
+https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/tree/preview
 
 
 # Wiki
 
-https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
+https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/wiki
 
 # Info
 
@@ -37,6 +37,10 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
 
 ## Changelog
+
+### 2019/07/23
+
+    1、Support macOS Mojave 10.14.6
 
 ### 2019/06/24
 
