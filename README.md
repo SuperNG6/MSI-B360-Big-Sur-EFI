@@ -1,4 +1,4 @@
-# Update 2019/06/23
+# Update 2019/07/23
 
 # Wiki
 
@@ -9,9 +9,9 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
     CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
     
-    macOS Catalina 10.15
+    macOS Catalina 10.15 Beta4
 
-    Clover 4959
+    Clover 5027
     
     AppleALC 1.3.9
     
@@ -21,12 +21,17 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
     
     USBInjectAll 0.7.1
     
-    VirtualSMC 1.0.5
+    VirtualSMC 1.0.6
     
     WhateverGreen 1.3.0
     
 
 ## Changelog
+
+### 2019/07/23
+
+    1、EFI Refactoring
+    2、Support macOS Catalina 10.15 Beta4
 
 ### 2019/06/23
 
