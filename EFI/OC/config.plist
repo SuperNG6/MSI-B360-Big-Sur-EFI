@@ -674,18 +674,12 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>FSInject.efi</string>
-			<string>FwRuntimeServices.efi</string>
-			<string>AudioDxe.efi</string>
-			<string>UsbKbDxe.efi</string>
-			<string>AppleGenericInput.efi</string>
-			<string>AppleUiSupport.efi</string>
-			<string>VirtualSmc.efi</string>
-			<string>AptioMemoryFix.efi</string>
 			<string>ApfsDriverLoader.efi</string>
-			<string>DataHubDxe.efi</string>
-			<string>VBoxHfs.efi</string>
+			<string>AppleUiSupport.efi</string>
 			<string>AptioInputFix.efi</string>
+			<string>AptioMemoryFix.efi</string>
+			<string>VBoxHfs.efi</string>
+			<string>VirtualSmc.efi</string>
 		</array>
 		<key>Protocols</key>
 		<dict>
