@@ -218,59 +218,11 @@
 		<array>
 			<dict>
 				<key>BundlePath</key>
-				<string>AppleALC.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleALC</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>IntelMausi.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelMausi</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>SMCProcessor.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCProcessor</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>USBInjectAll.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/USBInjectAll</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
-				<key>Enabled</key>
-				<true/>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -286,6 +238,16 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
+				<string>SMCProcessor.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCProcessor</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Enabled</key>
 				<true/>
@@ -296,7 +258,27 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>XHCI-unsupported.kext</string>
+				<string>IntelMausi.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelMausi</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>AppleALC.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AppleALC</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>USBPorts.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>PlistPath</key>
@@ -692,18 +674,18 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>ApfsDriverLoader.efi</string>
-			<string>AppleGenericInput.efi</string>
-			<string>AppleUiSupport.efi</string>
-			<string>AptioInputFix.efi</string>
-			<string>AptioMemoryFix.efi</string>
-			<string>AudioDxe.efi</string>
-			<string>DataHubDxe.efi</string>
 			<string>FSInject.efi</string>
 			<string>FwRuntimeServices.efi</string>
+			<string>AudioDxe.efi</string>
 			<string>UsbKbDxe.efi</string>
-			<string>VBoxHfs.efi</string>
+			<string>AppleGenericInput.efi</string>
+			<string>AppleUiSupport.efi</string>
 			<string>VirtualSmc.efi</string>
+			<string>AptioMemoryFix.efi</string>
+			<string>ApfsDriverLoader.efi</string>
+			<string>DataHubDxe.efi</string>
+			<string>VBoxHfs.efi</string>
+			<string>AptioInputFix.efi</string>
 		</array>
 		<key>Protocols</key>
 		<dict>
