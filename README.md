@@ -1,4 +1,4 @@
-# Update 2019/07/23
+# Update 2019/08/11
 
 # Getting Started Tutorials & Documentation
 https://sleele.com/2019/07/14/gettingstartedtutorial/
@@ -8,6 +8,9 @@ https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/releases
 
 # Preview
 https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/tree/preview
+
+# OpenCore
+https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/tree/OpenCore
 
 
 # Wiki
