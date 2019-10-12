@@ -32,7 +32,7 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
     1、Support macOS Catalina 10.15
     2、Enhanced Audio Device compatibility
-    3、Update Kext && clover
+    3、Update Kexts && clover
     4、Replace OsxAptioFix2Drv-free2000.efi with OsxAptioFixDrv-64.efi 
 
 ### 2019/07/23
