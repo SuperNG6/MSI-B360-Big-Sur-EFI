@@ -1,49 +1,69 @@
-# Update 2019/07/07
-
-# Download
-https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/releases
-
-# Preview
-https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/tree/preview
+# Update 2019/10/12
 
 # Wiki
 
 https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
 
+
 # Info
 
     CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
     
-    macOS Mojave 10.14.5
+    macOS Catalina 10.15
 
-    Clover 4934
+    Clover 5093
     
-    AppleALC 1.3.9
+    AppleALC 1.4.2
     
-    IntelMausi 1.0.0
+    IntelMausi 1.0.2
     
-    Lilu 1.3.7
+    Lilu 1.3.8
     
     USBInjectAll 0.7.1
     
-    VirtualSMC 1.0.6
+    VirtualSMC 1.0.8
     
-    WhateverGreen 1.3.0
+    WhateverGreen 1.3.3
     
-
 
 ## Changelog
 
-### 2019/0/07
+### 2019/10/12
 
-    1、Update Kext && VirtualSMC
+    1、Support macOS Catalina 10.15
+    2、Enhanced Audio Device compatibility
+    3、Update Kext && clover
+    4、Replace OsxAptioFix2Drv-free2000.efi with OsxAptioFixDrv-64.efi 
 
-### 2019/06/24
+### 2019/07/23
 
-    1、Support latest BIOS version 1.60
-    2、Update Clover 4934
-    3、Replace OsxAptioFixDrv-64.efi with OsxAptioFix2Drv-free2000.efi & Enhanced compatibility
-    4、Contain more updates
+    1、EFI Refactoring
+    2、Support macOS Catalina 10.15 Beta4
+
+### 2019/06/23
+
+    1、Update Clover 4969 && Support macOS Catalina Beta2
+    2、Update VirtualSMC 1.0.5
+    3、Update WhateverGreen 1.3.0
+    4、Update Lilu 1.3.7
+    5、Update AppleALC 1.3.9
+    6、Replace OsxAptioFixDrv-64.efi with OsxAptioFix2Drv-free2000.efi & Enhanced compatibility
+
+### 2019/06/07
+
+    1、Update Clover 4952 && Update USB Patches
+
+### 2019/06/04
+
+    1、Update Clover 4940 && Support macOS Catalina Beta1
+
+### 2019/06/01
+
+    1、Update Clover 4937
+    2、Replace IntelMausiEthernet with IntelMausi && Improve network performance and stability
+    3、Update VirtualSMC 1.0.4 && remove SMCSuperIO.kext
+    4、Update AppleALC 1.3.8 && Lilu 1.3.6 WhateverGreen 1.2.9
+    5、Add PCI Devices info && Fix mic
 
 ### 2019/05/14
 
@@ -88,7 +108,6 @@ https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
     1、Fix Audio (Layout ID 15) and use Hackintool driver UHD630
     2、Update Clover version 4862 support macOS 10.14.4 beta1
     3、It is highly recommended to upgrade to the latest version to solve USB problems
-
 
 
     
