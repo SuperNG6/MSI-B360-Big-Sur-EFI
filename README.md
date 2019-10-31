@@ -1,32 +1,38 @@
-# Update 2019/10/21
+# Update 2019/10/31
 
 # Wiki
 
-https://github.com/SuperNG6/MSI-B360-10.14.5-EFI/wiki
+https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/wiki
 
 
 # Info
 
     CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
     
-    macOS Catalina 10.15
+    macOS Catalina 10.15.1
 
-    Clover 5093
+    Clover 5097
     
-    AppleALC 1.4.2
+    AppleALC 1.4.3
     
     IntelMausi 1.0.2
     
-    Lilu 1.3.8
+    Lilu 1.3.9
     
     USBInjectAll 0.7.1
     
-    VirtualSMC 1.0.8
+    VirtualSMC 1.0.9
     
-    WhateverGreen 1.3.3
+    WhateverGreen 1.3.4
     
 
 ## Changelog
+
+### 2019/10/31
+
+    1、Support macOS Catalina 10.15.1
+    2、Fix macOS 10.15.1 Black Screen
+    3、Update Kexts and driver
 
 ### 2019/10/12
 
