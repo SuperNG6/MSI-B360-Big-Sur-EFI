@@ -48,7 +48,7 @@ https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/wiki
 
 # Detail
 
-![](https://github.com/SuperNG6/pic/blob/master/OpenCore/Xnip2019-08-11_21-57-18.png)
-![](https://github.com/SuperNG6/pic/blob/master/OpenCore/Xnip2019-08-11_23-07-49.png)
+![](https://github.com/SuperNG6/pic/blob/master/OpenCore/Xnip2019-11-01_19-13-51.png)
+![](https://github.com/SuperNG6/pic/blob/master/OpenCore/Xnip2019-11-01_19-15-25.png)
 
 
