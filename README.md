@@ -9,7 +9,7 @@ https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/wiki
 
 # OpenCore Guide
 
-https://sleele.com/2019/10/31/opencore快速导读/
+https://sleele.com/2019/10/31/opencore-guide/
 
 # Info
 
