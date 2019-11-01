@@ -51,7 +51,9 @@ https://sleele.com/2019/10/31/opencore-guide/
   
 
 # Detail
-
+![](https://github.com/SuperNG6/pic/blob/master/OpenCore/Xnip2019-11-01_19-37-52.png)
+![](https://github.com/SuperNG6/pic/blob/master/OpenCore/Xnip2019-11-01_19-37-58.png)
+![](https://github.com/SuperNG6/pic/blob/master/OpenCore/Xnip2019-11-01_19-41-00.png)
 ![](https://github.com/SuperNG6/pic/blob/master/OpenCore/Xnip2019-11-01_19-13-51.png)
 ![](https://github.com/SuperNG6/pic/blob/master/OpenCore/Xnip2019-11-01_19-15-25.png)
 
