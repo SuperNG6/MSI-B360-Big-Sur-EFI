@@ -1,4 +1,4 @@
-# Update 2019/08/11
+# Update 2019/11/01
 
 # Getting Started Tutorials & Documentation
 https://sleele.com/2019/07/14/gettingstartedtutorial/
@@ -12,22 +12,28 @@ https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/wiki
     
     Support macOS Mojave or newer
 
-    OpenCorePkg 0.0.4
+    OpenCorePkg 0.5.2
     
-    AppleALC 1.4.0
+    AppleALC 1.4.3
     
-    IntelMausi 1.0.1
+    IntelMausi 1.0.2
     
-    Lilu 1.3.8
+    Customize USBPorts
+
+    Lilu 1.3.9
+
+    VirtualSMC 1.0.9
     
-    USBPorts
-    
-    VirtualSMC 1.0.7
-    
-    WhateverGreen 1.3.1
+    WhateverGreen 1.3.4
     
     
 ## Changelog
+
+### 2019/11/01
+
+    1、EFI Refactoring
+    2、Support macOS Catalina 10.15.1
+    3、Update Kexts and driver
 
 ### 2019/08/11
 

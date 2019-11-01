@@ -8,57 +8,27 @@
 	<string>Ensure you understand EVERY field before booting.</string>
 	<key>ACPI</key>
 	<dict>
-		<key>Block</key>
+		<key>Add</key>
 		<array>
 			<dict>
-				<key>All</key>
-				<false/>
-				<key>Comment</key>
-				<string>Drop CpuPm</string>
 				<key>Enabled</key>
-				<false/>
-				<key>OemTableId</key>
-				<data>
-				Q3B1UG0AAAA=
-				</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				U1NEVA==
-				</data>
-			</dict>
-			<dict>
-				<key>All</key>
-				<false/>
-				<key>Comment</key>
-				<string>Drop Cpu0Ist</string>
-				<key>Enabled</key>
-				<false/>
-				<key>OemTableId</key>
-				<data>
-				Q3B1MElzdAA=
-				</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				U1NEVA==
-				</data>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SB_PR00.aml</string>
 			</dict>
 		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Fix MSI B360M Mortal DSDT Device(RTC) bug on BIOS v1.60 (credit pupin)</string>
+				<string>_Q11 to XQ11</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				oAqTU1RBUwE=
+				X1ExMQ==
 				</data>
 				<key>Limit</key>
 				<integer>0</integer>
@@ -70,7 +40,7 @@
 				</data>
 				<key>Replace</key>
 				<data>
-				oAqRCv8L//8=
+				WFExMQ==
 				</data>
 				<key>ReplaceMask</key>
 				<data>
@@ -79,10 +49,59 @@
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
-				<key>TableSignature</key>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>_Q12 to XQ12</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
 				<data>
-				RFNEVA==
+				X1ExMg==
 				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WFExMg==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fix MSI B360M Mortal DSDT Device(RTC) bug on BIOS v1.60 (credit pupin)</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				oAqTU1RBUwE=
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>
+				oAqRCv8L//8=
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -95,7 +114,7 @@
 			<false/>
 			<key>ResetHwSig</key>
 			<false/>
-			<key>resetLogoStatus</key>
+			<key>ResetLogoStatus</key>
 			<false/>
 		</dict>
 	</dict>
@@ -105,8 +124,12 @@
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
-			<key>DisableVariableWrite</key>
+			<key>DevirtualiseMmio</key>
 			<false/>
+			<key>DisableSingleUser</key>
+			<false/>
+			<key>DisableVariableWrite</key>
+			<true/>
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
@@ -133,7 +156,7 @@
 			<dict>
 				<key>device-id</key>
 				<data>
-				cJ0AAA==
+				cKEAAA==
 				</data>
 				<key>layout-id</key>
 				<data>
@@ -238,21 +261,33 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>SMCProcessor.kext</string>
+				<string>WhateverGreen.kext</string>
+				<key>Comment</key>
+				<string>Video card</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCProcessor</string>
+				<string>Contents/MacOS/WhateverGreen</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
+				<string>USBPorts.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>AppleALC.kext</string>
+				<key>Comment</key>
+				<string>Sound</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
+				<string>Contents/MacOS/AppleALC</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -268,19 +303,21 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>AppleALC.kext</string>
+				<string>SMCProcessor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleALC</string>
+				<string>Contents/MacOS/SMCProcessor</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
+				<string>SMCSuperIO.kext</string>
 				<key>Enabled</key>
 				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -312,8 +349,6 @@
 				<key>Mask</key>
 				<data>
 				</data>
-				<key>MatchKernel</key>
-				<string></string>
 				<key>Replace</key>
 				<data>
 				6y4Ptg==
@@ -340,7 +375,9 @@
 				<key>Mask</key>
 				<data>
 				</data>
-				<key>MatchKernel</key>
+				<key>MaxKernel</key>
+				<string>18.5.0</string>
+				<key>MinKernel</key>
 				<string>18.5.0</string>
 				<key>Replace</key>
 				<data>
@@ -366,7 +403,9 @@
 				<key>Mask</key>
 				<data>
 				</data>
-				<key>MatchKernel</key>
+				<key>MaxKernel</key>
+				<string>18.5.0</string>
+				<key>MinKernel</key>
 				<string>18.5.0</string>
 				<key>Replace</key>
 				<data>
@@ -378,13 +417,44 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>Base</key>
+				<string>__ZN11BCM5701Enet14getAdapterInfoEv</string>
+				<key>Comment</key>
+				<string>Broadcom BCM57785 patch</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				6AAA//9miYMABQAA
+				</data>
+				<key>Identifier</key>
+				<string>com.apple.iokit.AppleBCM5701Ethernet</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				/wAA////////////
+				</data>
+				<key>Replace</key>
+				<data>
+				uLQWAABmiYMABQAA
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
@@ -397,6 +467,8 @@
 			<false/>
 			<key>PanicNoKextDump</key>
 			<false/>
+			<key>PowerTimeoutKernelPanic</key>
+			<false/>
 			<key>ThirdPartyTrim</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -405,8 +477,6 @@
 	</dict>
 	<key>Misc</key>
 	<dict>
-		<key>BlessOverride</key>
-		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleBehaviourOs</key>
@@ -416,9 +486,11 @@
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>HibernateMode</key>
-			<string>Auto</string>
+			<string>None</string>
 			<key>HideSelf</key>
 			<true/>
+			<key>PollAppleHotKeys</key>
+			<false/>
 			<key>Resolution</key>
 			<string>3840x2160</string>
 			<key>ShowPicker</key>
@@ -454,16 +526,18 @@
 		</array>
 		<key>Security</key>
 		<dict>
+			<key>AllowNvramReset</key>
+			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>2</integer>
+			<integer>3</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>RequireSignature</key>
-			<true/>
+			<false/>
 			<key>RequireVault</key>
-			<true/>
+			<false/>
 			<key>ScanPolicy</key>
-			<integer>983299</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -503,10 +577,12 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v keepsyms=1</string>
+				<string>Slide=129 darkwake=0</string>
+				<key>bootercfg</key>
+				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
 				<data>
-				AAAAAA==
+				5wMAAA==
 				</data>
 				<key>nvda_drv</key>
 				<data>
@@ -530,7 +606,7 @@
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
-		<false/>
+		<true/>
 		<key>LegacySchema</key>
 		<dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -542,6 +618,8 @@
 				<string>SystemAudioVolumeDB</string>
 				<string>bluetoothActiveControllerInfo</string>
 				<string>bluetoothInternalControllerInfo</string>
+				<string>efi-boot-device</string>
+				<string>efi-boot-device-data</string>
 				<string>flagstate</string>
 				<string>fmm-computer-name</string>
 				<string>nvda_drv</string>
@@ -568,14 +646,14 @@
 			<key>SystemProductName</key>
 			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C07WKDYAJYVX</string>
+			<string>C07WL01NJYVX</string>
 			<key>SystemUUID</key>
-			<string>5E3E03CC-5C34-48E8-A205-8F137BC2E00C</string>
+			<string>126BE657-968A-453E-BD17-64A08944F9C6</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C07815301QXA8</string>
+			<string>C07816101GUUE</string>
 			<key>ROM</key>
 			<data>
 			ESIzAAAA
@@ -585,18 +663,18 @@
 			<key>SystemProductName</key>
 			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C07WKDYAJYVX</string>
+			<string>C07WL01NJYVX</string>
 			<key>SystemUUID</key>
-			<string>5E3E03CC-5C34-48E8-A205-8F137BC2E00C</string>
+			<string>126BE657-968A-453E-BD17-64A08944F9C6</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>FirmwareFeatures</key>
 			<string>66F48FFD 00000000</string>
 			<key>FirmwareFeaturesMask</key>
-			<string>FFFFFFFF 00000000</string>
+			<string>7FFFDFFF 00000000</string>
 			<key>MLB</key>
-			<string>C07815301QXA8</string>
+			<string>C07816101GUUE</string>
 			<key>ROM</key>
 			<data>
 			ESIzAAAA
@@ -605,11 +683,11 @@
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>04/23/2019</string>
+			<string>09/17/2019</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>220.260.170.0.0</string>
+			<string>1037.0.78.0.0</string>
 			<key>BoardAssetTag</key>
 			<string></string>
 			<key>BoardLocationInChassis</key>
@@ -619,7 +697,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-7BA5B2DFE22DDD8C</string>
 			<key>BoardSerialNumber</key>
-			<string>C07815301QXA8</string>
+			<string>C07816101GUUE</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -629,7 +707,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C07WKDYAJYVX</string>
+			<string>C07WL01NJYVX</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -637,11 +715,11 @@
 			<key>FirmwareFeatures</key>
 			<string>66F48FFD 00000000</string>
 			<key>FirmwareFeaturesMask</key>
-			<string>FFFFFFFF 00000000</string>
+			<string>7FFFDFFF 00000000</string>
 			<key>MemoryFormFactor</key>
 			<string></string>
 			<key>PlatformFeature</key>
-			<integer>2</integer>
+			<integer>32</integer>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>SystemFamily</key>
@@ -653,9 +731,9 @@
 			<key>SystemSKUNumber</key>
 			<string>Mac-7BA5B2DFE22DDD8C</string>
 			<key>SystemSerialNumber</key>
-			<string>C07WKDYAJYVX</string>
+			<string>C07WL01NJYVX</string>
 			<key>SystemUUID</key>
-			<string>5E3E03CC-5C34-48E8-A205-8F137BC2E00C</string>
+			<string>126BE657-968A-453E-BD17-64A08944F9C6</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -675,41 +753,79 @@
 		<key>Drivers</key>
 		<array>
 			<string>ApfsDriverLoader.efi</string>
-			<string>AppleUiSupport.efi</string>
-			<string>AptioInputFix.efi</string>
-			<string>AptioMemoryFix.efi</string>
-			<string>VBoxHfs.efi</string>
+			<string>FwRuntimeServices.efi</string>
 			<string>VirtualSmc.efi</string>
+			<string>EmuVariableRuntimeDxe.efi</string>
+			<string>HFSPlus.efi</string>
 		</array>
+		<key>Input</key>
+		<dict>
+			<key>KeyForgetThreshold</key>
+			<integer>5</integer>
+			<key>KeyMergeThreshold</key>
+			<integer>2</integer>
+			<key>KeySupport</key>
+			<true/>
+			<key>KeySupportMode</key>
+			<string>Auto</string>
+			<key>KeySwap</key>
+			<false/>
+			<key>PointerSupport</key>
+			<false/>
+			<key>PointerSupportMode</key>
+			<string>ASUS</string>
+			<key>TimerResolution</key>
+			<integer>50000</integer>
+		</dict>
 		<key>Protocols</key>
 		<dict>
 			<key>AppleBootPolicy</key>
 			<false/>
-			<key>ConsoleControl</key>
+			<key>AppleEvent</key>
 			<false/>
+			<key>AppleImageConversion</key>
+			<false/>
+			<key>AppleKeyMap</key>
+			<false/>
+			<key>AppleUserInterfaceTheme</key>
+			<false/>
+			<key>ConsoleControl</key>
+			<true/>
 			<key>DataHub</key>
 			<false/>
 			<key>DeviceProperties</key>
 			<false/>
+			<key>FirmwareVolume</key>
+			<false/>
+			<key>HashServices</key>
+			<false/>
+			<key>UnicodeCollation</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>AvoidHighAlloc</key>
+			<true/>
+			<key>ClearScreenOnModeSwitch</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
-			<false/>
+			<true/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
-			<key>ProvideConsoleControl</key>
-			<false/>
 			<key>ProvideConsoleGop</key>
+			<true/>
+			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
 			<false/>
+			<key>ReplaceTabWithSpace</key>
+			<false/>
 			<key>RequestBootVarRouting</key>
-			<false/>
+			<true/>
 			<key>SanitiseClearScreen</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 </dict>
