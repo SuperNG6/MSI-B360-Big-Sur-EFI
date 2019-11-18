@@ -755,7 +755,6 @@
 			<string>ApfsDriverLoader.efi</string>
 			<string>FwRuntimeServices.efi</string>
 			<string>VirtualSmc.efi</string>
-			<string>EmuVariableRuntimeDxe.efi</string>
 			<string>HFSPlus.efi</string>
 		</array>
 		<key>Input</key>
@@ -826,6 +825,8 @@
 			<true/>
 			<key>SanitiseClearScreen</key>
 			<true/>
+			<key>UnblockFsConnect</key>
+			<false/>
 		</dict>
 	</dict>
 </dict>
