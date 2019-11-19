@@ -9,7 +9,7 @@ https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/releases
 # Preview--Support macOS Catalina 10.15.1
 https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/tree/preview
 
-# OpenCore--Support macOS Catalina 10.15.1
+# OpenCore--Support macOS Catalina 10.15.1 [2019/11/19 Update]
 https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/tree/OpenCore
 
 
