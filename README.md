@@ -1,4 +1,4 @@
-# Update 2019/11/18
+# Update 2019/11/19
 
 # Getting Started Tutorials & Documentation
 https://sleele.com/2019/07/14/gettingstartedtutorial/
@@ -32,6 +32,10 @@ https://sleele.com/2019/10/31/opencore-guide/
     
     
 ## Changelog
+
+### 2019/11/19
+
+    1、Fix:OCS: Failed to parse string field of type 2
 
 ### 2019/11/18
 
