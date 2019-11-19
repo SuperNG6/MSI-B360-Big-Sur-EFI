@@ -27,24 +27,17 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				X1ExMQ==
-				</data>
+				<data>X1ExMQ==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>OemTableId</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Replace</key>
-				<data>
-				WFExMQ==
-				</data>
+				<data>WFExMQ==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
@@ -58,24 +51,17 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				X1ExMg==
-				</data>
+				<data>X1ExMg==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>OemTableId</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Replace</key>
-				<data>
-				WFExMg==
-				</data>
+				<data>WFExMg==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
@@ -89,15 +75,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				oAqTU1RBUwE=
-				</data>
+				<data>oAqTU1RBUwE=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Replace</key>
-				<data>
-				oAqRCv8L//8=
-				</data>
+				<data>oAqRCv8L//8=</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
@@ -155,76 +137,42 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>device-id</key>
-				<data>
-				cKEAAA==
-				</data>
+				<data>cKEAAA==</data>
 				<key>layout-id</key>
-				<data>
-				DwAAAA==
-				</data>
+				<data>DwAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				BwCbPg==
-				</data>
+				<data>BwCbPg==</data>
 				<key>device-id</key>
-				<data>
-				mz4AAA==
-				</data>
+				<data>mz4AAA==</data>
 				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-busid</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
+				<data>EgAAAA==</data>
 				<key>framebuffer-con0-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-con1-busid</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
+				<data>EgAAAA==</data>
 				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
+				<data>EgAAAA==</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
+				<data>AAAAgA==</data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -339,23 +287,17 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				dS4Ptg==
-				</data>
+				<data>dS4Ptg==</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleRTC</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Replace</key>
-				<data>
-				6y4Ptg==
-				</data>
+				<data>6y4Ptg==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -365,27 +307,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				dTMPtw==
-				</data>
+				<data>dTMPtw==</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleRTC</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>18.5.0</string>
 				<key>MinKernel</key>
 				<string>18.5.0</string>
 				<key>Replace</key>
-				<data>
-				6zMPtw==
-				</data>
+				<data>6zMPtw==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -401,19 +337,15 @@
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>18.5.0</string>
 				<key>MinKernel</key>
 				<string>18.5.0</string>
 				<key>Replace</key>
-				<data>
-				ww==
-				</data>
+				<data>ww==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -427,24 +359,17 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				6AAA//9miYMABQAA
-				</data>
+				<data>6AAA//9miYMABQAA</data>
 				<key>Identifier</key>
 				<string>com.apple.iokit.AppleBCM5701Ethernet</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				/wAA////////////
-				</data>
+				<data>/wAA////////////</data>
 				<key>Replace</key>
-				<data>
-				uLQWAABmiYMABQAA
-				</data>
+				<data>uLQWAABmiYMABQAA</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -570,9 +495,7 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>UIScale</key>
-				<data>
-				Ag==
-				</data>
+				<data>Ag==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
@@ -581,17 +504,11 @@
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
-				<data>
-				5wMAAA==
-				</data>
+				<data>5wMAAA==</data>
 				<key>nvda_drv</key>
-				<data>
-				MQ==
-				</data>
+				<data>MQ==</data>
 				<key>prev-lang:kbd</key>
-				<data>
-				cnUtUlU6MjUy
-				</data>
+				<data>cnUtUlU6MjUy</data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -639,25 +556,12 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
-		<key>DataHub</key>
-		<dict>
-			<key>BoardProduct</key>
-			<string>Mac-7BA5B2DFE22DDD8C</string>
-			<key>SystemProductName</key>
-			<string>Macmini8,1</string>
-			<key>SystemSerialNumber</key>
-			<string>C07WL01NJYVX</string>
-			<key>SystemUUID</key>
-			<string>126BE657-968A-453E-BD17-64A08944F9C6</string>
-		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
 			<string>C07816101GUUE</string>
 			<key>ROM</key>
-			<data>
-			ESIzAAAA
-			</data>
+			<data>ESIzAAAA</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
@@ -666,76 +570,6 @@
 			<string>C07WL01NJYVX</string>
 			<key>SystemUUID</key>
 			<string>126BE657-968A-453E-BD17-64A08944F9C6</string>
-		</dict>
-		<key>PlatformNVRAM</key>
-		<dict>
-			<key>FirmwareFeatures</key>
-			<string>66F48FFD 00000000</string>
-			<key>FirmwareFeaturesMask</key>
-			<string>7FFFDFFF 00000000</string>
-			<key>MLB</key>
-			<string>C07816101GUUE</string>
-			<key>ROM</key>
-			<data>
-			ESIzAAAA
-			</data>
-		</dict>
-		<key>SMBIOS</key>
-		<dict>
-			<key>BIOSReleaseDate</key>
-			<string>09/17/2019</string>
-			<key>BIOSVendor</key>
-			<string></string>
-			<key>BIOSVersion</key>
-			<string>1037.0.78.0.0</string>
-			<key>BoardAssetTag</key>
-			<string></string>
-			<key>BoardLocationInChassis</key>
-			<string>Part Component</string>
-			<key>BoardManufacturer</key>
-			<string></string>
-			<key>BoardProduct</key>
-			<string>Mac-7BA5B2DFE22DDD8C</string>
-			<key>BoardSerialNumber</key>
-			<string>C07816101GUUE</string>
-			<key>BoardType</key>
-			<integer>10</integer>
-			<key>BoardVersion</key>
-			<string>1.0</string>
-			<key>ChassisAssetTag</key>
-			<string>Mini-Aluminum</string>
-			<key>ChassisManufacturer</key>
-			<string></string>
-			<key>ChassisSerialNumber</key>
-			<string>C07WL01NJYVX</string>
-			<key>ChassisType</key>
-			<integer>9</integer>
-			<key>ChassisVersion</key>
-			<string>Mac-7BA5B2DFE22DDD8C</string>
-			<key>FirmwareFeatures</key>
-			<string>66F48FFD 00000000</string>
-			<key>FirmwareFeaturesMask</key>
-			<string>7FFFDFFF 00000000</string>
-			<key>MemoryFormFactor</key>
-			<string></string>
-			<key>PlatformFeature</key>
-			<integer>32</integer>
-			<key>ProcessorType</key>
-			<integer>0</integer>
-			<key>SystemFamily</key>
-			<string>Mac mini</string>
-			<key>SystemManufacturer</key>
-			<string></string>
-			<key>SystemProductName</key>
-			<string>Macmini8,1</string>
-			<key>SystemSKUNumber</key>
-			<string>Mac-7BA5B2DFE22DDD8C</string>
-			<key>SystemSerialNumber</key>
-			<string>C07WL01NJYVX</string>
-			<key>SystemUUID</key>
-			<string>126BE657-968A-453E-BD17-64A08944F9C6</string>
-			<key>SystemVersion</key>
-			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -825,8 +659,6 @@
 			<true/>
 			<key>SanitiseClearScreen</key>
 			<true/>
-			<key>UnblockFsConnect</key>
-			<false/>
 		</dict>
 	</dict>
 </dict>
