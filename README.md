@@ -15,7 +15,7 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/OpenCore
 
 # Wiki
 
-https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/wiki
+https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki
 
 # Info
 
