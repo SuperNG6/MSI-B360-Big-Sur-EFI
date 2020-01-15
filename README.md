@@ -4,13 +4,13 @@
 https://sleele.com/2019/07/14/gettingstartedtutorial/
 
 # Download
-https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/releases
+https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
 
 # Preview--Support macOS Catalina 10.15.2
-https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/tree/preview
+https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/preview
 
 # OpenCore--Support macOS Catalina 10.15.2 [2020/01/15 Update]
-https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/tree/OpenCore
+https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/OpenCore
 
 
 # Wiki
