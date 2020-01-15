@@ -49,6 +49,9 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki
 ### 2019/07/23
 
     1、Support macOS Mojave 10.14.6
+    
+<details>
+<summary>history</summary>
 
 ### 2019/06/24
 
@@ -101,7 +104,7 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki
     2、Update Clover version 4862 support macOS 10.14.4 beta1
     3、It is highly recommended to upgrade to the latest version to solve USB problems
 
-
+</details>
 
     
 # Recommend to modify your SMBIOS
