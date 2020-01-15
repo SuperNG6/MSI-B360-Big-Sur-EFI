@@ -9,24 +9,29 @@ https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/wiki
 
     CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
     
-    macOS Catalina 10.15.1
+    macOS Catalina 10.15.2
 
-    Clover 5097
+    Clover 5103
     
-    AppleALC 1.4.3
+    AppleALC 1.4.5
     
     IntelMausi 1.0.2
     
-    Lilu 1.3.9
+    Lilu 1.4.1
     
     USBInjectAll 0.7.1
     
-    VirtualSMC 1.0.9
+    VirtualSMC 1.1.0
     
-    WhateverGreen 1.3.4
+    WhateverGreen 1.3.6
     
 
 ## Changelog
+
+### 2020/01/15
+
+    1、Support macOS Catalina 10.15.2
+    2、update kext & driver & clover
 
 ### 2019/10/31
 
