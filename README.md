@@ -33,6 +33,14 @@ https://sleele.com/2019/10/31/opencore-guide/
     
 ## Changelog
 
+### 2020/01/15
+
+    1、remove ThirdPartyTrim item
+    2、remove VirtualSMC.efi (opencore built in)
+    3、update opencore & driver & kext
+    4、minor performance improvements
+    5、Support macOS Catalina 10.15.2
+
 ### 2019/11/19
 
     1、Fix:OCS: Failed to parse string field of type 2
