@@ -1,4 +1,4 @@
-# Update 2019/11/19
+# Update 2020/01/15
 
 # Getting Started Tutorials & Documentation
 https://sleele.com/2019/07/14/gettingstartedtutorial/
@@ -6,10 +6,10 @@ https://sleele.com/2019/07/14/gettingstartedtutorial/
 # Download
 https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/releases
 
-# Preview--Support macOS Catalina 10.15.1
+# Preview--Support macOS Catalina 10.15.2
 https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/tree/preview
 
-# OpenCore--Support macOS Catalina 10.15.1 [2019/11/19 Update]
+# OpenCore--Support macOS Catalina 10.15.2 [2020/01/15 Update]
 https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/tree/OpenCore
 
 
@@ -21,25 +21,29 @@ https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/wiki
 
     CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
     
-    macOS Mojave 10.14.6
+    macOS Catalina 10.15.2
 
-    Clover 4934
+    Clover 5103
     
-    AppleALC 1.3.7
+    AppleALC 1.4.5
     
-    IntelMausi 1.0.0
+    IntelMausi 1.0.2
     
-    Lilu 1.3.6
+    Lilu 1.4.1
     
     USBInjectAll 0.7.1
     
-    VirtualSMC 1.0.4
+    VirtualSMC 1.1.0
     
-    WhateverGreen 1.2.9
+    WhateverGreen 1.3.6
     
-
 
 ## Changelog
+
+### 2020/01/15
+
+    1、Support macOS Catalina 10.15.2
+    2、update kext & driver & clover
 
 ### 2019/07/23
 
