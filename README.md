@@ -43,7 +43,8 @@ https://github.com/SuperNG6/MSI-B360-10.14.6-EFI/wiki
 ### 2020/01/15
 
     1、Support macOS Catalina 10.15.2
-    2、update kext & driver & clover
+    2、Update kext & driver & clover
+    3、Merge preview branch change
 
 ### 2019/07/23
 
