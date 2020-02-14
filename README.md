@@ -19,21 +19,27 @@ https://sleele.com/2019/10/31/opencore-guide/
     
     Support macOS Mojave or newer
 
-    OpenCorePkg 0.5.4
+    OpenCorePkg 0.5.5
     
-    AppleALC 1.4.5
+    AppleALC 1.4.6
     
     IntelMausi 1.0.2
     
     Lilu 1.4.1
     
-    USBInjectAll 0.7.1
-    
-    VirtualSMC 1.1.0
+    VirtualSMC 1.1.1
     
     WhateverGreen 1.3.6
     
 ## Changelog
+
+### 2020/02/14
+
+    1、update OpenCorePkg 0.5.5 & AppleALC 1.4.6 & VirtualSMC 1.1.1
+    2、remove slide value,now support more Motherboard (z390,b360 b365 ....)
+    3、support native nvram for 300-series chipsets
+    4、added TakeoffDelay value(200) for improved action hotkey support
+    5、support macOS Catalina 10.15.3
 
 ### 2020/01/15
 
@@ -41,6 +47,7 @@ https://sleele.com/2019/10/31/opencore-guide/
     2、remove VirtualSMC.efi (opencore built in)
     3、update opencore & driver & kext
     4、minor performance improvements
+    5、improve PowerManagement
     5、Support macOS Catalina 10.15.2
 
 ### 2019/11/19
