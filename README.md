@@ -41,6 +41,26 @@ https://sleele.com/2019/10/31/opencore-guide/
     4、added TakeoffDelay value(200) for improved action hotkey support
     5、support macOS Catalina 10.15.3
 
+## If you used to apply simulation nvaram，please operate in the following way.  
+### Clover  
+````
+delete these files
+/Volumes/EFI/nvram.plist
+/etc/rc.clover.lib
+/etc/rc.boot.d/10.save_and_rotate_boot_log.local
+/etc/rc.boot.d/20.mount_ESP.local
+/etc/rc.boot.d/70.disable_sleep_proxy_client.local.disabled
+/etc/rc.boot.d/80.save_nvram_plist.local
+/etc/rc.boot.d
+/etc/rc.shutdown.d
+````
+
+### OpenCore  
+````
+sudo rm -rf $(sudo defaults read com.apple.loginwindow LogoutHook)  
+sudo defaults delete com.apple.loginwindow LogoutHook  
+````
+
 ### 2020/01/15
 
     1、remove ThirdPartyTrim item
