@@ -60,8 +60,8 @@ delete these files
 
 ### OpenCore  
 ````
-sudo rm -rf $(sudo defaults read com.apple.loginwindow LogoutHook)  
-sudo defaults delete com.apple.loginwindow LogoutHook  
+sudo rm -rf $(sudo defaults read com.apple.loginwindow LogoutHook)
+sudo defaults delete com.apple.loginwindow LogoutHook
 ````
 
 
