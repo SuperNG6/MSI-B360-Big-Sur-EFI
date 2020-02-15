@@ -7,14 +7,12 @@ https://sleele.com/2019/07/14/gettingstartedtutorial/
 
 https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki
 
+# OpenCore Guide
+
+https://sleele.com/2019/10/31/opencore-guide/
+
 # Download
 https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
-
-# Preview
-https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/preview
-
-# OpenCore
-https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/OpenCore
 
 
 # Info
