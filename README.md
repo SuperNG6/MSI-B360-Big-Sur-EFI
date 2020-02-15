@@ -43,6 +43,7 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
     3、set the default recovery language to zh-Hant
     4、support native nvram for 300-series chipsets
     5、added TakeoffDelay value(200) for improved action hotkey support
+    6、add NvramReset options at boot
     6、support macOS Catalina 10.15.3
     
 ## If you used to apply simulation nvaram，please operate in the following way.  
