@@ -153,7 +153,6 @@ Link of tutorial：https://sleele.com/2019/05/05/hackintosh-pcidevices/
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-2.png)
 ![7o6k83](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/7o6k83.png)
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-8.png)
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-12.png)
 ![Zq3EKh](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/Zq3EKh.png)
 ![9vtHF1](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/9vtHF1.png)
 ![vNLdMd](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vNLdMd.png)
