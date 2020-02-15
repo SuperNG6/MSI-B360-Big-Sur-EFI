@@ -36,13 +36,14 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
 
 ## Changelog
 
-### 2020/02/14
+### 2020/02/15
     Merge OpenCore branch change
     1、update OpenCorePkg 0.5.5 & AppleALC 1.4.6 & VirtualSMC 1.1.1
     2、remove slide value,now support more motherboard (z390,b360 b365 ....)
-    3、support native nvram for 300-series chipsets
-    4、added TakeoffDelay value(200) for improved action hotkey support
-    5、support macOS Catalina 10.15.3
+    3、set the default recovery language to zh-Hant
+    4、support native nvram for 300-series chipsets
+    5、added TakeoffDelay value(200) for improved action hotkey support
+    6、support macOS Catalina 10.15.3
     
 ## If you used to apply simulation nvaram，please operate in the following way.  
 ### Clover  
