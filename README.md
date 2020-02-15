@@ -1,44 +1,71 @@
-# Update 2020/01/15
+# Update 2020/02/15
 
 # Getting Started Tutorials & Documentation
 https://sleele.com/2019/07/14/gettingstartedtutorial/
-
-# Download
-https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
-
-# Preview--Support macOS Catalina 10.15.2
-https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/preview
-
-# OpenCore--Support macOS Catalina 10.15.2
-https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/OpenCore
-
 
 # Wiki
 
 https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki
 
+# Download
+https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
+
+# Preview
+https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/preview
+
+# OpenCore
+https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/OpenCore
+
+
 # Info
 
     CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
     
-    macOS Catalina 10.15.2
+    Support macOS Mojave or newer
 
-    Clover 5103
+    OpenCorePkg 0.5.5
     
-    AppleALC 1.4.5
+    AppleALC 1.4.6
     
     IntelMausi 1.0.2
     
     Lilu 1.4.1
     
-    USBInjectAll 0.7.1
-    
-    VirtualSMC 1.1.0
+    VirtualSMC 1.1.1
     
     WhateverGreen 1.3.6
     
 
 ## Changelog
+
+### 2020/02/14
+    Merge OpenCore branch change
+    1、update OpenCorePkg 0.5.5 & AppleALC 1.4.6 & VirtualSMC 1.1.1
+    2、remove slide value,now support more Motherboard (z390,b360 b365 ....)
+    3、support native nvram for 300-series chipsets
+    4、added TakeoffDelay value(200) for improved action hotkey support
+    5、support macOS Catalina 10.15.3
+    
+## If you used to apply simulation nvaram，please operate in the following way.  
+### Clover  
+````
+delete these files
+/Volumes/EFI/nvram.plist
+/etc/rc.clover.lib
+/etc/rc.boot.d/10.save_and_rotate_boot_log.local
+/etc/rc.boot.d/20.mount_ESP.local
+/etc/rc.boot.d/70.disable_sleep_proxy_client.local.disabled
+/etc/rc.boot.d/80.save_nvram_plist.local
+/etc/rc.boot.d
+/etc/rc.shutdown.d
+````
+
+### OpenCore  
+````
+sudo rm -rf $(sudo defaults read com.apple.loginwindow LogoutHook)  
+sudo defaults delete com.apple.loginwindow LogoutHook  
+````
+
 
 ### 2020/01/15
 
@@ -124,9 +151,10 @@ Link of tutorial：https://sleele.com/2019/05/05/hackintosh-pcidevices/
 
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-5.png)
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-2.png)
+![7o6k83](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/7o6k83.png)
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-8.png)
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-12.png)
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-13.png)
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-6.png)
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-4.png)
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-7.png)
+![Zq3EKh](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/Zq3EKh.png)
+![9vtHF1](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/9vtHF1.png)
+![vNLdMd](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vNLdMd.png)
+![pI0FGt](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/pI0FGt.png)
