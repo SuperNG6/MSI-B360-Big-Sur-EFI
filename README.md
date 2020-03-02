@@ -21,20 +21,26 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
     
     Support macOS Mojave or newer
 
-    OpenCorePkg 0.5.5
+    OpenCorePkg 0.5.6
     
-    AppleALC 1.4.6
+    AppleALC 1.4.7
     
     IntelMausi 1.0.2
     
-    Lilu 1.4.1
+    Lilu 1.4.2
     
     VirtualSMC 1.1.1
     
-    WhateverGreen 1.3.6
+    WhateverGreen 1.3.7
     
 
 ## Changelog
+
+### 2020/03/02
+
+    1、Build based on the new config.plist file
+    2、Update OpenCorePkg 0.5.6 & AppleALC 1.4.7 & Lilu 1.4.2 &  WhateverGreen 1.3.7
+    3、Fixed locating DMG recovery in APTIO IV firmwares on FAT32
 
 ### 2020/02/15
     Merge OpenCore branch change
