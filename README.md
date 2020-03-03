@@ -1,4 +1,4 @@
-# Update 2020/03/02
+# Update 2020/03/03
 
 # Getting Started Tutorials & Documentation
 https://sleele.com/2019/07/14/gettingstartedtutorial/
@@ -35,6 +35,11 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
     
 
 ## Changelog
+
+### 2020/03/03
+
+    1、Adjust some parameters
+    2、Improved performance and stability
 
 ### 2020/03/02
 
