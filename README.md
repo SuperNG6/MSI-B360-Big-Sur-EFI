@@ -1,4 +1,4 @@
-# Update 2020/03/03
+# Update 2020/03/04
 
 # Getting Started Tutorials & Documentation
 https://sleele.com/2019/07/14/gettingstartedtutorial/
@@ -35,6 +35,10 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
     
 
 ## Changelog
+
+### 2020/03/04
+
+    1、Set the default ExposeSensitiveData value to 3 fix non-native nvram motherboard can’t boot issue
 
 ### 2020/03/03
 
