@@ -36,9 +36,10 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
 
 ## Changelog
 
-### 2020/03/04
+### 2020/03/05
 
     1、Set the default ExposeSensitiveData value to 3，fix non-native nvram motherboard can’t boot issue
+    2、Fix Intel HDMI output
 
 ### 2020/03/03
 
