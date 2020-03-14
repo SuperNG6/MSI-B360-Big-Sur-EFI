@@ -7,7 +7,7 @@ https://sleele.com/2019/07/14/gettingstartedtutorial/
 
 https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki
 
-# AMD5500xt branch
+# AMD5500xt Branch
 https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/5500xt
 
 # OpenCore Guide
