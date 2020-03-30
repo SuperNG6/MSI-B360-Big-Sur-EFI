@@ -1,6 +1,6 @@
 ---
-name: 反馈问题
-about: 你出现的状况
+name: 反馈问题 | problem feedback
+about: 你出现的状况 | What happened to you
 title: '请按照模板填写，谢谢 🙏'
 ---
 
