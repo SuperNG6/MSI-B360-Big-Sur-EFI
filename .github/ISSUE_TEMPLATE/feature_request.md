@@ -1,5 +1,5 @@
 ---
-name: 功能建议
+name: 功能建议 | Feature Suggestions
 about: 请求实现新功能或改进已有功能
 title: '请按照模板填写，谢谢'
 labels: 'enhancement'
