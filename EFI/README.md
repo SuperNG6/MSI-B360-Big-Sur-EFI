@@ -43,9 +43,12 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
 
 ### 2020/04/07
 
-    1、update OpenCorePkg 0.5.7 & AppleALC 1.4.8 & Lilu 1.4.3 & VirtualSMC 1.1.2 & WhateverGreen 1.3.8 && add NVMeFix 1.0.2
+    1、update OpenCorePkg 0.5.7 & AppleALC 1.4.8 & Lilu 1.4.3 & VirtualSMC 1.1.2 & WhateverGreen 1.3.8
     2、using the new memory injection method (KASLR)
     3、improved IGPU performance
+    4、remove USBInjectAll.kext,using custom USBPorts.kext & USBPower.kext
+    5、add NVMeFix.kext for enhanced nvme driver compatibility
+    6、improved performance and stability
 
 ### 2020/03/05
 
