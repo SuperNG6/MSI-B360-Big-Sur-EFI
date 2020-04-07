@@ -1,4 +1,4 @@
-# Update 2020/03/14
+# Update 2020/04/07
 
 # Getting Started Tutorials & Documentation
 https://sleele.com/2019/07/14/gettingstartedtutorial/
@@ -24,20 +24,28 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
     
     Support macOS Mojave or newer
 
-    OpenCorePkg 0.5.6
+    OpenCorePkg 0.5.7
     
-    AppleALC 1.4.7
+    AppleALC 1.4.8
     
     IntelMausi 1.0.2
     
-    Lilu 1.4.2
+    Lilu 1.4.3
     
-    VirtualSMC 1.1.1
+    VirtualSMC 1.1.2
     
-    WhateverGreen 1.3.7
+    WhateverGreen 1.3.8
+
+    NVMeFix 1.0.2
     
 
 ## Changelog
+
+### 2020/04/07
+
+    1、update OpenCorePkg 0.5.7 & AppleALC 1.4.8 & Lilu 1.4.3 & VirtualSMC 1.1.2 & WhateverGreen 1.3.8 && add NVMeFix 1.0.2
+    2、using the new memory injection method (KASLR)
+    3、improved IGPU performance
 
 ### 2020/03/05
 
