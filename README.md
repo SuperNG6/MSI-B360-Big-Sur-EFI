@@ -162,7 +162,7 @@ sudo defaults delete com.apple.loginwindow LogoutHook
     
 # Recommend to modify your SMBIOS
 Link of tutorial：https://sleele.com/2019/03/21/smbios/
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/SMBIOS.png)
+![vXUITT](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vXUITT.png)
 
 ### Recommend BIOS version 7B23v16
 MSI B360 BIOS download link https://cn.msi.com/Motherboard/support/B360M-MORTAR
@@ -175,11 +175,11 @@ Link of tutorial：https://sleele.com/2019/05/05/hackintosh-pcidevices/
 # Detail:
  [My Blog: sleele.com/2018/12/01/hackintosh/ ](https://sleele.com/2018/12/01/hackintosh/ "Blog")
 
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-5.png)
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-2.png)
-![7o6k83](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/7o6k83.png)
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-8.png)
-![Zq3EKh](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/Zq3EKh.png)
+![2qtqFu](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/2qtqFu.png)
+![cKp37i](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/cKp37i.png)
+![6U2TQO](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/6U2TQO.png)
+![qM1uoH](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/qM1uoH.png)
+![Zq3EKh](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/hANtdH.png)
 ![9vtHF1](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/9vtHF1.png)
 ![vNLdMd](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vNLdMd.png)
-![pI0FGt](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/pI0FGt.png)
+![aIzBBu](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/aIzBBu.png)
