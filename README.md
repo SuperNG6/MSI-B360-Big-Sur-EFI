@@ -20,7 +20,7 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
 
 # Info
 
-    CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini
+    CPU:i5 8400 GPU:UHD630 SSD:SAM 960PRO SMBIOS:2018 Mac mini | iMac19,1
     
     Support macOS Mojave or newer
 
