@@ -5,7 +5,8 @@ https://sleele.com/2019/07/14/gettingstartedtutorial/
 
 # Wiki
 
-https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki
+https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki  
+https://sleele.com/2020/04/13/hackintosh-catalina
 
 # AMD5500xt Branch
 https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/5500xt
@@ -173,7 +174,7 @@ Link of tutorial：https://sleele.com/2019/05/05/hackintosh-pcidevices/
 ![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/Hackintosh%20images/image-14.png)
 
 # Detail:
- [My Blog: sleele.com/2018/12/01/hackintosh/ ](https://sleele.com/2018/12/01/hackintosh/ "Blog")
+ [My Blog: https://sleele.com/2020/04/13/hackintosh-catalina/ ](https://sleele.com/2020/04/13/hackintosh-catalina/ "Blog")
 
 ![2qtqFu](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/2qtqFu.png)
 ![cKp37i](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/cKp37i.png)
