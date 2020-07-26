@@ -1,3 +1,5 @@
+![](https://img.shields.io/github/v/release/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Catalina-EFI/total) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Catalina-EFI/latest/total) ![](https://img.shields.io/github/issues/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Catalina-EFI)
+
 # Update 2020/04/07
 
 # Getting Started Tutorials & Documentation
