@@ -1,7 +1,7 @@
 ![](https://img.shields.io/github/v/release/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Catalina-EFI/latest/total) ![](https://img.shields.io/github/issues/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Catalina-EFI)  
 ![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Catalina-EFI) ![GitHub Release Date](https://img.shields.io/github/release-date/superng6/MSI-B360-Catalina-EFI) ![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B360-Catalina-EFI) ![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B360-Catalina-EFI)
 
-# Update 2020/04/07
+# Updated 2020/08/04
 
 # Getting Started Tutorials & Documentation
 https://sleele.com/2019/07/14/gettingstartedtutorial/
@@ -30,16 +30,24 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
 
 | Components    | Version |
 | ------------- | ------- |
-| OpenCorePkg   | 0.5.7   |
-| AppleALC      | 1.4.8   |
-| IntelMausi    | 1.0.2   |
-| Lilu          | 1.4.3   |
-| VirtualSMC    | 1.1.2   |
+| OpenCorePkg   | 0.6.0   |
+| AppleALC      | 1.5.1   |
+| IntelMausi    | 1.0.3   |
+| Lilu          | 1.4.6   |
+| VirtualSMC    | 1.1.5   |
 | WhateverGreen | 1.3.8   |
-| NVMeFix       | 1.0.2   |
+| NVMeFix       | 1.0.3   |
     
 
 ## Changelog
+
+### 2020/08/04
+
+    1、fix black screen on igfx since 10.15.5 & 10.15.6
+    2、update OpenCorePkg & Kexts to the latest
+    3、added `ONLY AMD GPU (iMacPro1,1)` platform EFI
+    4、abandon ApfsDriverLoader.efi and use OpenCore's built-in apfs driver.
+    5、preliminary support macOS BigSur 11.0
 
 ### 2020/04/07
 
