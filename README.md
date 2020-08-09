@@ -194,7 +194,8 @@ Link of tutorial：https://sleele.com/2019/05/05/hackintosh-pcidevices/
 # Detail:
  [My Blog: https://sleele.com/2020/04/13/hackintosh-catalina/ ](https://sleele.com/2020/04/13/hackintosh-catalina/ "Blog")
 
-![2qtqFu](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/2qtqFu.png)
+![截屏2020-08-09上午10.26.26](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/截屏2020-08-09%20上午10.26.26.jpg)
+![截屏2020-08-09上午10.26.57](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/截屏2020-08-09%20上午10.26.57.jpg)
 ![cKp37i](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/cKp37i.png)
 ![6U2TQO](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/6U2TQO.png)
 ![qM1uoH](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/qM1uoH.png)
