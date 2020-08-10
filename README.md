@@ -1,3 +1,4 @@
+## Requires macOS 10.14+. Works with Catalina and Big Sur. It's Free and Open Source.
 ![](https://img.shields.io/github/v/release/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Catalina-EFI/latest/total) ![](https://img.shields.io/github/issues/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Catalina-EFI)  
 ![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Catalina-EFI) ![GitHub Release Date](https://img.shields.io/github/release-date/superng6/MSI-B360-Catalina-EFI) ![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B360-Catalina-EFI) ![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B360-Catalina-EFI)
 
@@ -10,9 +11,6 @@ https://sleele.com/2019/07/14/gettingstartedtutorial/
 
 https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki  
 https://sleele.com/2020/04/13/hackintosh-catalina
-
-# AMD5500xt Branch
-https://github.com/SuperNG6/MSI-B360-Catalina-EFI/tree/5500xt
 
 # OpenCore Guide
 
@@ -33,7 +31,6 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
 | iMac19,1      | AMD GPU+IGPU    |
 | iMacPro1,1    | ONLY AMD GPU    |
 
-###    Support macOS Mojave or newer
 
 | Components    | Version |
 | ------------- | ------- |
