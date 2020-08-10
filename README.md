@@ -62,6 +62,10 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
     5、add NVMeFix.kext for enhanced nvme driver compatibility
     6、improved performance and stability
 
+<details>
+<summary>history</summary>
+
+
 ### 2020/03/05
 
     1、Set the default ExposeSensitiveData value to 3，fix non-native nvram motherboard can’t boot issue
@@ -117,10 +121,7 @@ sudo defaults delete com.apple.loginwindow LogoutHook
 
 ### 2019/07/23
 
-    1、Support macOS Mojave 10.14.6
-    
-<details>
-<summary>history</summary>
+    1、Support macOS Mojave 10.14.6    
 
 ### 2019/06/24
 
