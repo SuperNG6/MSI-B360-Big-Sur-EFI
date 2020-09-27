@@ -34,16 +34,21 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
 
 | Components    | Version |
 | ------------- | ------- |
-| OpenCorePkg   | 0.6.0   |
-| AppleALC      | 1.5.1   |
+| OpenCorePkg   | 0.6.1   |
+| AppleALC      | 1.5.2   |
 | IntelMausi    | 1.0.3   |
-| Lilu          | 1.4.6   |
-| VirtualSMC    | 1.1.5   |
-| WhateverGreen | 1.3.8   |
+| Lilu          | 1.4.7   |
+| VirtualSMC    | 1.1.6   |
+| WhateverGreen | 1.4.2   |
 | NVMeFix       | 1.0.3   |
     
 
 ## Changelog
+
+### 2020/09/26
+
+    1、update OpenCorePkg & Kexts to the latest
+    2、support macOS Catalina 10.15.7 & macOS Big Sur 11 Beta 8
 
 ### 2020/08/04
 
