@@ -34,16 +34,21 @@ https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
 
 | Components    | Version |
 | ------------- | ------- |
-| OpenCorePkg   | 0.6.1   |
-| AppleALC      | 1.5.2   |
-| IntelMausi    | 1.0.3   |
-| Lilu          | 1.4.7   |
-| VirtualSMC    | 1.1.6   |
-| WhateverGreen | 1.4.2   |
-| NVMeFix       | 1.0.3   |
+| OpenCorePkg   | 0.6.3   |
+| AppleALC      | 1.5.4   |
+| IntelMausi    | 1.0.4   |
+| Lilu          | 1.4.9   |
+| VirtualSMC    | 1.1.8   |
+| WhateverGreen | 1.4.4   |
+| NVMeFix       | 1.0.4   |
     
 
 ## Changelog
+### 2020/11/14
+
+    1、update OpenCorePkg & Kexts to the latest
+    2、support macOS Big Sur 11.0.1
+    3、improved performance and stability
 
 ### 2020/09/26
 
@@ -197,7 +202,7 @@ Link of tutorial：https://sleele.com/2019/05/05/hackintosh-pcidevices/
 # Detail:
  [My Blog: https://sleele.com/2020/04/13/hackintosh-catalina/ ](https://sleele.com/2020/04/13/hackintosh-catalina/ "Blog")
 
-![截屏2020-08-09上午10.26.26](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/截屏2020-08-09%20上午10.26.26.jpg)
+![dr8BYB](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/dr8BYB.png)
 ![截屏2020-08-09上午10.26.57](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/截屏2020-08-09%20上午10.26.57.jpg)
 ![cKp37i](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/cKp37i.png)
 ![6U2TQO](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/6U2TQO.png)
