@@ -1,64 +1,37 @@
-# GitHub Action Release
+# GitHub Action
 # MSI-B360-Catalina-EFI
 
-name: Release
+name: Upload files to Release
 
 on:
   push:
     paths:
       - "ReleaseTag"
-  repository_dispatch:
   workflow_dispatch:
-
-env:
-  REPO_URL: https://github.com/SuperNG6/MSI-B360-Catalina-EFI
-  REPO_BRANCH: master
-  UPLOAD_RELEASE: true
-  TZ: Asia/Shanghai
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
-
+    runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@main
-
-    - name: Initialization environment
-      env:
-        DEBIAN_FRONTEND: noninteractive
-      run: |
-        sudo -E apt-get -qq update
-        sudo -E apt-get -qq install git wget unzip
-        sudo timedatectl set-timezone "$TZ"
-
-    - name: Clone source code
-      working-directory: /tmp
-      run: |
-        git clone $REPO_URL -b $REPO_BRANCH hackintosh
-        ln -sf /tmp/hackintosh $GITHUB_WORKSPACE/hackintosh
-        echo "EFI_PATH=$GITHUB_WORKSPACE/hackintosh" >> $GITHUB_ENV
+      - name: Checkout codebase
+        uses: actions/checkout@v2
 
     - name: Packaging EFI
       run: |
-        cd $GITHUB_WORKSPACE/hackintosh
-        zip -rq AMD.5500XT+IGPU.iMac19.1.zip ./AMD\ 5500XT+IGPU\ \(iMac19\,1\)/
-        zip -rq AMD.GPU+IGPU.iMac19.1.zip ./AMD\ GPU+IGPU\ \(iMac19\,1\)
-        zip -rq ONLY.AMD.GPU.iMacPro1.1.zip ./ONLY\ AMD\ GPU\ \(iMacPro1\,1\)
-        zip -rq ONLY.IGPU.Macmini8.1.zip ./ONLY\ IGPU\ \(Macmini8\,1\)
+        zip -q -r AMD.5500XT+IGPU.iMac19.1.zip ./AMD\ 5500XT+IGPU\ \(iMac19\,1\)/
+        zip -q -r AMD.GPU+IGPU.iMac19.1.zip ./AMD\ GPU+IGPU\ \(iMac19\,1\)
+        zip -q -r ONLY.AMD.GPU.iMacPro1.1.zip ./ONLY\ AMD\ GPU\ \(iMacPro1\,1\)
+        zip -q -r ONLY.IGPU.Macmini8.1.zip ./ONLY\ IGPU\ \(Macmini8\,1\)
         ls -l *.zip
 
     - name: Generate release tag
       id: tag
-      if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
         echo "::set-output name=release_tag::$(cat ReleaseTag)"
-        echo "::set-output name=status::success"
         cat ReleaseTag
 
     - name: Upload EFI to release
       uses: softprops/action-gh-release@v1
-      if: steps.tag.outputs.status == 'success' && !cancelled()
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -67,4 +40,4 @@ jobs:
         prerelease: false
         body_path: Changelog.md
         files: |
-          ${{ env.EFI_PATH }}/*.zip
+          ./*.zip
