@@ -1,49 +1,48 @@
-## Requires macOS 10.14+. Works with Catalina and Big Sur. It's Free and Open Source.
+## Requires macOS 10.14+. Works with Catalina and Big Sur. It's Free and Open Source.  
 ![](https://img.shields.io/github/v/release/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Catalina-EFI/latest/total) ![](https://img.shields.io/github/issues/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Catalina-EFI)  
 ![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Catalina-EFI) ![GitHub Release Date](https://img.shields.io/github/release-date/superng6/MSI-B360-Catalina-EFI) ![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B360-Catalina-EFI) ![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B360-Catalina-EFI)
 
-# Updated 2020/11/14
-
-# Getting Started Tutorials & Documentation
+# Getting Started Tutorials & Documentation  
 https://sleele.com/2019/07/14/gettingstartedtutorial/
 
-# Wiki
-
+# Wiki  
 https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki  
 https://sleele.com/2020/04/13/hackintosh-catalina
 
-# OpenCore Guide
-
+# OpenCore Guide  
 https://sleele.com/2019/10/31/opencore-guide/
 
-# Download
-https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases
+### Platform Info && Download link
 
+| SMBIOS        | Platform        | download link | 
+| ------------- | --------------- |  ------------ | 
+| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.0.1/ONLY.IGPU.Macmini8.1.zip | 
+| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.0.1/AMD.5500XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.0.1/AMD.GPU+IGPU.iMac19.1.zip | 
+| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.0.1/ONLY.AMD.GPU.iMacPro1.1.zip | 
 
-# Info
-
-###    Platform Info
-
-| SMBIOS        | Platform        |
-| ------------- | --------------- |
-| Macmini8,1    | ONLY IGPU       |
-| iMac19,1      | AMD 5500XT+IGPU |
-| iMac19,1      | AMD GPU+IGPU    |
-| iMacPro1,1    | ONLY AMD GPU    |
-
+### Acidanthera & Hackintosh-Tools  
+https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
 
 | Components    | Version |
 | ------------- | ------- |
-| OpenCorePkg   | 0.6.3   |
-| AppleALC      | 1.5.4   |
+| OpenCorePkg   | 0.6.4   |
+| AppleALC      | 1.5.5   |
 | IntelMausi    | 1.0.4   |
-| Lilu          | 1.4.9   |
-| VirtualSMC    | 1.1.8   |
-| WhateverGreen | 1.4.4   |
+| Lilu          | 1.5.0   |
+| VirtualSMC    | 1.1.9   |
+| WhateverGreen | 1.4.5   |
 | NVMeFix       | 1.0.4   |
     
 
 ## Changelog
+
+### 2020/12/14
+
+    1、update OpenCorePkg & Kexts to the latest
+    2、support macOS Big Sur 11.1
+    3、remove `igfxfw=2` boot argument,added `igfxrpsc=1` boot argument to enable RPS control patch (improves IGPU performance)
+
 ### 2020/11/14
 
     1、update OpenCorePkg & Kexts to the latest
