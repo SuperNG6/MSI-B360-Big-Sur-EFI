@@ -1,0 +1,33 @@
+# GitHub Action
+# MSI-B360-Catalina-EFI
+
+name: Update OpenCorePkg & Kexts
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout codebase
+        uses: actions/checkout@v2
+
+      - name: Update OpenCorePkg & Kexts
+        run: |
+          TAG=$(wget --no-check-certificate -qO- https://api.github.com/repos/SuperNG6/Acidanthera-Hackintosh-Tools/tags | grep 'name' | cut -d\" -f4 | head -1 )
+          wget -q https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools/releases/download/${TAG}/Core-EFI.zip
+
+          unzip -q Core-EFI.zip
+
+          cp -r ./EFI ./AMD\ 5500XT+IGPU\ \(iMac19\,1\)/
+          cp -r ./EFI ./AMD\ GPU+IGPU\ \(iMac19\,1\)/
+          cp -r ./EFI ./ONLY\ AMD\ GPU\ \(iMacPro1\,1\)/
+          cp -r ./EFI ./ONLY\ IGPU\ \(Macmini8\,1\)/
+
+      - name: Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Update OpenCorePkg & Kexts to the latest"
+          git push -v --progress

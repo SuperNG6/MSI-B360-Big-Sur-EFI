@@ -1,16 +1,16 @@
 # GitHub Action
 # MSI-B360-Catalina-EFI
 
-name: pre-release
+name: Upload EFI to release
 
 on:
   push:
     paths:
-      - "PreReleaseTag"
+      - "ReleaseTag"
   workflow_dispatch:
 
 jobs:
-  build:
+  upload:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout codebase
@@ -27,8 +27,8 @@ jobs:
       - name: Generate release tag
         id: tag
         run: |
-          echo "::set-output name=release_tag::$(cat PreReleaseTag)"
-          cat PreReleaseTag
+          echo "::set-output name=release_tag::$(cat ReleaseTag)"
+          cat ReleaseTag
 
       - name: Upload EFI to release
         uses: softprops/action-gh-release@v1
@@ -37,7 +37,7 @@ jobs:
         with:
           name: MSI-B360-${{ steps.tag.outputs.release_tag }}-EFI
           tag_name: ${{ steps.tag.outputs.release_tag }}
-          prerelease: true
-          body_path: Prereleaselog.md
+          prerelease: false
+          body_path: Changelog.md
           files: |
             ./*.zip
