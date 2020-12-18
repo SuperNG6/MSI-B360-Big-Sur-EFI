@@ -37,7 +37,11 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
 
 ## Changelog
 
-### 2020/12/14
+### 2020/12/18  
+
+    1、update HfsPlus.efi & fix HfsPlus.efi at o cannot be loaded
+
+### 2020/12/17
 
     1、update OpenCorePkg & Kexts to the latest
     2、support macOS Big Sur 11.1
