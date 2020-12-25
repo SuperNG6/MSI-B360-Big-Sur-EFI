@@ -204,6 +204,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>Patch</key>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AllowRelocationBlock</key>
@@ -916,9 +918,9 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02907207QXLNV9FB</string>
+			<string>C02938306CDLNV98C</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>4105</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -928,9 +930,9 @@
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Y8JZTJV3Q</string>
+			<string>C02ZFDYFJV3Q</string>
 			<key>SystemUUID</key>
-			<string>F4172B77-D3F2-4170-BCF1-3FF308D66637</string>
+			<string>68EE85BB-4DEC-438A-99C3-C731A8D300B6</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
