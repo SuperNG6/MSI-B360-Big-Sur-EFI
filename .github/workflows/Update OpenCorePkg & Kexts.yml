@@ -21,6 +21,7 @@ jobs:
           unzip -q Core-EFI.zip
 
           cp -r ./EFI ./AMD\ 5500XT+IGPU\ \(iMac19\,1\)/
+          cp -r ./EFI ./AMD\ 5700XT+IGPU\ \(iMac19\,1\)/
           cp -r ./EFI ./AMD\ GPU+IGPU\ \(iMac19\,1\)/
           cp -r ./EFI ./ONLY\ AMD\ GPU\ \(iMacPro1\,1\)/
           cp -r ./EFI ./ONLY\ IGPU\ \(Macmini8\,1\)/
