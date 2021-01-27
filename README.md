@@ -1,5 +1,6 @@
+
 ## Requires macOS 10.14+. Works with Catalina and Big Sur. It's Free and Open Source.  
-![](https://img.shields.io/github/v/release/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Catalina-EFI/latest/total) ![](https://img.shields.io/github/issues/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Catalina-EFI)  
+![](https://img.shields.io/github/v/release/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Catalina-EFI/latest/total) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Catalina-EFI/total) ![](https://img.shields.io/github/issues/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Catalina-EFI)  
 ![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Catalina-EFI) ![GitHub Release Date](https://img.shields.io/github/release-date/superng6/MSI-B360-Catalina-EFI) ![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B360-Catalina-EFI) ![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B360-Catalina-EFI)
 
 # Getting Started Tutorials & Documentation  
@@ -16,11 +17,11 @@ https://sleele.com/2019/10/31/opencore-guide/
 
 | SMBIOS        | Platform        | download link | 
 | ------------- | --------------- |  ------------ | 
-| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.1/ONLY.IGPU.Macmini8.1.zip | 
-| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.1/AMD.5500XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.1/AMD.5700XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.1/AMD.GPU+IGPU.iMac19.1.zip | 
-| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.1/ONLY.AMD.GPU.iMacPro1.1.zip | 
+| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.2/ONLY.IGPU.Macmini8.1.zip | 
+| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.2/AMD.5500XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.2/AMD.5700XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.2/AMD.GPU+IGPU.iMac19.1.zip | 
+| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/11.2/ONLY.AMD.GPU.iMacPro1.1.zip | 
 
 ### Acidanthera & Hackintosh Tools  
 https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
@@ -55,7 +56,7 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
 
     1、update OpenCorePkg & Kexts to the latest
     2、support macOS Big Sur 11.1
-    3、remove `igfxfw=2` boot argument,added `igfxrpsc=1` boot argument to enable RPS control patch (improves IGPU performance)
+    3、remove  boot argument,added  boot argument to enable RPS control patch (improves IGPU performance)
 
 ### 2020/11/14
 
@@ -72,7 +73,7 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
 
     1、fix black screen on igfx since 10.15.5 & 10.15.6
     2、update OpenCorePkg & Kexts to the latest
-    3、added `ONLY AMD GPU (iMacPro1,1)` platform EFI
+    3、added  platform EFI
     4、abandon ApfsDriverLoader.efi and use OpenCore's built-in apfs driver.
     5、preliminary support macOS BigSur 11.0
 
@@ -117,7 +118,7 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     
 ## If you used to apply simulation nvaram，please operate in the following way.  
 ### Clover  
-````
+
 delete these files
 /Volumes/EFI/nvram.plist
 /etc/rc.clover.lib
@@ -127,13 +128,13 @@ delete these files
 /etc/rc.boot.d/80.save_nvram_plist.local
 /etc/rc.boot.d
 /etc/rc.shutdown.d
-````
+
 
 ### OpenCore  
-````
-sudo rm -rf $(sudo defaults read com.apple.loginwindow LogoutHook)
+
+sudo rm -rf 
 sudo defaults delete com.apple.loginwindow LogoutHook
-````
+
 
 
 ### 2020/01/15
@@ -224,3 +225,4 @@ Link of tutorial：https://sleele.com/2019/05/05/hackintosh-pcidevices/
 ![9vtHF1](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/9vtHF1.png)
 ![vNLdMd](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/vNLdMd.png)
 ![aIzBBu](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/aIzBBu.png)
+
