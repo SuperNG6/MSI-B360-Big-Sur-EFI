@@ -16,15 +16,15 @@ ReleaseTag=$(cat ReleaseTag | head -n1)
 cat > ./README.md << EOF
 
 ## Requires macOS 10.14+. Works with Catalina and Big Sur. It's Free and Open Source.  
-![](https://img.shields.io/github/v/release/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Catalina-EFI/latest/total) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Catalina-EFI/total) ![](https://img.shields.io/github/issues/superng6/MSI-B360-Catalina-EFI) ![](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Catalina-EFI)  
-![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Catalina-EFI) ![GitHub Release Date](https://img.shields.io/github/release-date/superng6/MSI-B360-Catalina-EFI) ![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B360-Catalina-EFI) ![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B360-Catalina-EFI)
+![](https://img.shields.io/github/v/release/superng6/MSI-B360-Big-Sur-EFI) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/latest/total) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/total) ![](https://img.shields.io/github/issues/superng6/MSI-B360-Big-Sur-EFI) ![](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Big-Sur-EFI)  
+![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Big-Sur-EFI) ![GitHub Release Date](https://img.shields.io/github/release-date/superng6/MSI-B360-Big-Sur-EFI) ![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B360-Big-Sur-EFI) ![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B360-Big-Sur-EFI)
 
 # Getting Started Tutorials & Documentation  
 https://sleele.com/2019/07/14/gettingstartedtutorial/
 
 # Wiki  
-https://github.com/SuperNG6/MSI-B360-Catalina-EFI/wiki  
-https://sleele.com/2020/04/13/hackintosh-catalina
+https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/wiki  
+https://sleele.com/2020/04/13/hackintosh-Big-Sur
 
 # OpenCore Guide  
 https://sleele.com/2019/10/31/opencore-guide/
@@ -33,11 +33,11 @@ https://sleele.com/2019/10/31/opencore-guide/
 
 | SMBIOS        | Platform        | download link | 
 | ------------- | --------------- |  ------------ | 
-| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/${ReleaseTag}/ONLY.IGPU.Macmini8.1.zip | 
-| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/${ReleaseTag}/AMD.5500XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/${ReleaseTag}/AMD.5700XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/${ReleaseTag}/AMD.GPU+IGPU.iMac19.1.zip | 
-| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Catalina-EFI/releases/download/${ReleaseTag}/ONLY.AMD.GPU.iMacPro1.1.zip | 
+| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/ONLY.IGPU.Macmini8.1.zip | 
+| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/AMD.5500XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/AMD.5700XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/AMD.GPU+IGPU.iMac19.1.zip | 
+| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/ONLY.AMD.GPU.iMacPro1.1.zip | 
 
 ### Acidanthera & Hackintosh Tools  
 https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
