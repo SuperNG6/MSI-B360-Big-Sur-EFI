@@ -18,7 +18,8 @@ jobs:
 
       - name: Update README
         run: |
-          chmod +x update-readme.sh && bash update-readme.sh
+          chmod +x .github/workflows/update-readme.sh
+          .github/workflows/update-readme.sh
 
       - name: Push
         run: |

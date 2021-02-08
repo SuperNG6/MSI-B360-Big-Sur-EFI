@@ -13,11 +13,19 @@ Hackintool_TAG=$(wget --no-check-certificate -qO- https://api.github.com/repos/h
 ReleaseTag=$(cat ReleaseTag | head -n1)
 
 # generate README.md
-cat > ./README.md << EOF
+cat > README.md << EOF
 
 ## Requires macOS 10.14+. Works with Catalina and Big Sur. It's Free and Open Source.  
-![](https://img.shields.io/github/v/release/superng6/MSI-B360-Big-Sur-EFI) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/latest/total) ![](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/total) ![](https://img.shields.io/github/issues/superng6/MSI-B360-Big-Sur-EFI) ![](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Big-Sur-EFI)  
-![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Big-Sur-EFI) ![GitHub Release Date](https://img.shields.io/github/release-date/superng6/MSI-B360-Big-Sur-EFI) ![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B360-Big-Sur-EFI) ![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B360-Big-Sur-EFI)
+
+![GitHub release](https://img.shields.io/github/v/release/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub download latest](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/latest/total?style=flat-square)
+![GitHub download total](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/total?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub issues closed](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub release date](https://img.shields.io/github/release-date/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
 
 # Getting Started Tutorials & Documentation  
 https://sleele.com/2019/07/14/gettingstartedtutorial/
@@ -89,7 +97,7 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
 
     1、fix black screen on igfx since 10.15.5 & 10.15.6
     2、update OpenCorePkg & Kexts to the latest
-    3、added `ONLY AMD GPU (iMacPro1,1)` platform EFI
+    3、added "ONLY AMD GPU (iMacPro1,1)" platform EFI
     4、abandon ApfsDriverLoader.efi and use OpenCore's built-in apfs driver.
     5、preliminary support macOS BigSur 11.0
 
