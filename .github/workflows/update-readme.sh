@@ -1,14 +1,13 @@
 #!/bin/bash
 
 # get release tag
-NVMeFix_TAG=$(wget --no-check-certificate -qO- https://api.github.com/repos/acidanthera/NVMeFix/tags | grep 'name' | cut -d\" -f4 | head -1 )
-IntelMausi_TAG=$(wget --no-check-certificate -qO- https://api.github.com/repos/acidanthera/IntelMausi/tags | grep 'name' | cut -d\" -f4 | head -1 )
-VirtualSMC_TAG=$(wget --no-check-certificate -qO- https://api.github.com/repos/acidanthera/VirtualSMC/tags | grep 'name' | cut -d\" -f4 | head -1 )
-Lilu_TAG=$(wget --no-check-certificate -qO- https://api.github.com/repos/acidanthera/Lilu/tags | grep 'name' | cut -d\" -f4 | head -1 )
-WhateverGreen_TAG=$(wget --no-check-certificate -qO- https://api.github.com/repos/acidanthera/WhateverGreen/tags | grep 'name' | cut -d\" -f4 | head -n 2 | tail -n 1 )
-OpenCorePkg_TAG=$(wget --no-check-certificate -qO- https://api.github.com/repos/acidanthera/OpenCorePkg/tags | grep 'name' | cut -d\" -f4 | head -1 )
-AppleALC_TAG=$(wget --no-check-certificate -qO- https://api.github.com/repos/acidanthera/AppleALC/tags | grep 'name' | cut -d\" -f4 | head -1 )
-Hackintool_TAG=$(wget --no-check-certificate -qO- https://api.github.com/repos/headkaze/Hackintool/tags | grep 'name' | cut -d\" -f4 | head -1 )
+NVMeFix_TAG=$(wget -qO- https://git.io/Acidanthera-tags | grep 'NVMeFix' | cut -d= -f2-)
+IntelMausi_TAG=$(wget -qO- https://git.io/Acidanthera-tags | grep 'IntelMausi' | cut -d= -f2-)
+VirtualSMC_TAG=$(wget -qO- https://git.io/Acidanthera-tags | grep 'VirtualSMC' | cut -d= -f2-)
+Lilu_TAG=$(wget -qO- https://git.io/Acidanthera-tags | grep 'Lilu' | cut -d= -f2-)
+WhateverGreen_TAG=$(wget -qO- https://git.io/Acidanthera-tags | grep 'WhateverGreen' | cut -d= -f2-)
+OpenCorePkg_TAG=$(wget -qO- https://git.io/Acidanthera-tags | grep 'OpenCorePkg' | cut -d= -f2-)
+AppleALC_TAG=$(wget -qO- https://git.io/Acidanthera-tags | grep 'AppleALC' | cut -d= -f2-)
 
 ReleaseTag=$(cat ReleaseTag | head -n1)
 
@@ -18,14 +17,14 @@ cat > README.md << EOF
 ## Requires macOS 10.14+. Works with Catalina and Big Sur. It's Free and Open Source.  
 
 ![GitHub release](https://img.shields.io/github/v/release/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
-![GitHub download latest](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/latest/total?style=flat-square)
-![GitHub download total](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/total?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
-![GitHub issues closed](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
 ![GitHub release date](https://img.shields.io/github/release-date/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub download latest](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/latest/total?style=flat-square)
+![GitHub download total](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/total?style=flat-square)  
 ![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
 ![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub issues closed](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
 
 # Getting Started Tutorials & Documentation  
 https://sleele.com/2019/07/14/gettingstartedtutorial/
