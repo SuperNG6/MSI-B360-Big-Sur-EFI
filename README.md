@@ -2,14 +2,14 @@
 ## Requires macOS 10.14+. Works with Catalina and Big Sur. It's Free and Open Source.  
 
 ![GitHub release](https://img.shields.io/github/v/release/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
-![GitHub download latest](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/latest/total?style=flat-square)
-![GitHub download total](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/total?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
-![GitHub issues closed](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
 ![GitHub release date](https://img.shields.io/github/release-date/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub download latest](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/latest/total?style=flat-square)
+![GitHub download total](https://img.shields.io/github/downloads/superng6/MSI-B360-Big-Sur-EFI/total?style=flat-square)  
 ![GitHub stars](https://img.shields.io/github/stars/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
 ![GitHub forks](https://img.shields.io/github/forks/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
+![GitHub issues closed](https://img.shields.io/github/issues-closed/superng6/MSI-B360-Big-Sur-EFI?style=flat-square)
 
 # Getting Started Tutorials & Documentation  
 https://sleele.com/2019/07/14/gettingstartedtutorial/
@@ -46,6 +46,11 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     
 
 ## Changelog
+
+### 2021/02/15
+
+    1、update OpenCorePkg & Kexts to the latest
+    2、update config.plist & support macOS Big Sur 11.2.1
 
 ### 2021/01/27
 
