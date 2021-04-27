@@ -207,8 +207,6 @@ sudo defaults delete com.apple.loginwindow LogoutHook
     3、Update USB Patches
     4、Replace VBoxHfs-64.efi with HFSPlus.efi
     5、Update AppleALC && Lilu && WhateverGreen
-    
-
 
 ### 2019/01/25
 
