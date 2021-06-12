@@ -1,2 +1,2 @@
-1、update config.plist & support macOS Big Sur 11.3.1
+1、update config.plist & support macOS Big Sur 11.4
 2、update OpenCorePkg & Kexts to the latest
