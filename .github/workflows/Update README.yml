@@ -16,14 +16,16 @@ jobs:
       - name: Checkout codebase
         uses: actions/checkout@v2
 
-      - name: Update README
+      - name: Update README & Changelog
         run: |
           chmod +x .github/workflows/update-readme.sh
+          chmod +x .github/workflows/update-changelog.sh
           .github/workflows/update-readme.sh
+          .github/workflows/update-changelog.sh
 
       - name: Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -am "Update README.md"
+          git commit -am "Update README.md & Changelog.md"
           git push -v --progress
