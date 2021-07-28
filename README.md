@@ -25,27 +25,32 @@ https://sleele.com/2019/10/31/opencore-guide/
 
 | SMBIOS        | Platform        | download link | 
 | ------------- | --------------- |  ------------ | 
-| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.4/ONLY.IGPU.Macmini8.1.zip | 
-| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.4/AMD.5500XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.4/AMD.5700XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.4/AMD.GPU+IGPU.iMac19.1.zip | 
-| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.4/ONLY.AMD.GPU.iMacPro1.1.zip | 
+| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.5.1/ONLY.IGPU.Macmini8.1.zip | 
+| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.5.1/AMD.5500XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.5.1/AMD.5700XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.5.1/AMD.GPU+IGPU.iMac19.1.zip | 
+| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.5.1/ONLY.AMD.GPU.iMacPro1.1.zip | 
 
 ### Acidanthera & Hackintosh Tools  
 https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
 
 | Components    | Version               |
 | ------------- | --------------------- |
-| OpenCorePkg   | 0.7.0    | 
-| AppleALC      | 1.6.1       |
-| IntelMausi    | 1.0.6     |
-| Lilu          | 1.5.3           |
-| VirtualSMC    | 1.2.4     |
-| WhateverGreen | 1.5.0  |
-| NVMeFix       | 1.0.8        |
+| OpenCorePkg   | 0.7.1    | 
+| AppleALC      | 1.6.2       |
+| IntelMausi    | 1.0.7     |
+| Lilu          | 1.5.4           |
+| VirtualSMC    | 1.2.5     |
+| WhateverGreen | 1.5.1  |
+| NVMeFix       | 1.0.9        |
     
 
 ## Changelog
+### 2021/07/28
+
+    1、update config.plist & support macOS Big Sur 11.5.1
+    2、update OpenCorePkg & Kexts to the latest
+
 ### 2021/06/12
 
     1、update config.plist & support macOS Big Sur 11.4
