@@ -61,6 +61,11 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     
 
 ## Changelog
+### 2021/09/11
+
+    1、update config.plist & support macOS Big Sur 11.5.2
+    2、update OpenCorePkg & Kexts to the latest
+
 ### 2021/07/28
 
     1、update config.plist & support macOS Big Sur 11.5.1

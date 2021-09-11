@@ -28,6 +28,8 @@ jobs:
       - name: Generate release tag
         id: tag
         run: |
+          chmod +x .github/workflows/update-changelog.sh
+          bash .github/workflows/update-changelog.sh
           echo "::set-output name=release_tag::$(cat ReleaseTag)"
           cat ReleaseTag
 

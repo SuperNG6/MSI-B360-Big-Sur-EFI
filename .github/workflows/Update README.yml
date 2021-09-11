@@ -19,9 +19,7 @@ jobs:
       - name: Update README & Changelog
         run: |
           chmod +x .github/workflows/update-readme.sh
-          chmod +x .github/workflows/update-changelog.sh
           .github/workflows/update-readme.sh
-          .github/workflows/update-changelog.sh
 
       - name: Push
         run: |
