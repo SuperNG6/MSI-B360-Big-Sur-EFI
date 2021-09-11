@@ -36,16 +36,21 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
 
 | Components    | Version               |
 | ------------- | --------------------- |
-| OpenCorePkg   | 0.7.1    | 
-| AppleALC      | 1.6.2       |
+| OpenCorePkg   | 0.7.3    | 
+| AppleALC      | 1.6.4       |
 | IntelMausi    | 1.0.7     |
-| Lilu          | 1.5.4           |
-| VirtualSMC    | 1.2.5     |
-| WhateverGreen | 1.5.1  |
+| Lilu          | 1.5.6           |
+| VirtualSMC    | 1.2.7     |
+| WhateverGreen | 1.5.3  |
 | NVMeFix       | 1.0.9        |
     
 
 ## Changelog
+### 2021/09/11
+
+    1、update config.plist & support macOS Big Sur 11.5.2
+    2、update OpenCorePkg & Kexts to the latest
+
 ### 2021/07/28
 
     1、update config.plist & support macOS Big Sur 11.5.1
