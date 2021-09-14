@@ -19,11 +19,11 @@ jobs:
       - name: Update README & Changelog
         run: |
           chmod +x .github/workflows/update-readme.sh
-          .github/workflows/update-readme.sh
+          bash .github/workflows/update-readme.sh
 
       - name: Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -am "Update README.md & Changelog.md"
+          git commit -am "Update README.md"
           git push -v --progress
