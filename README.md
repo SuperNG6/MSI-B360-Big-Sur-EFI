@@ -25,27 +25,33 @@ https://sleele.com/2019/10/31/opencore-guide/
 
 | SMBIOS        | Platform        | download link | 
 | ------------- | --------------- |  ------------ | 
-| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.6/ONLY.IGPU.Macmini8.1.zip | 
-| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.6/AMD.5500XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.6/AMD.5700XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.6/AMD.GPU+IGPU.iMac19.1.zip | 
-| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/11.6/ONLY.AMD.GPU.iMacPro1.1.zip | 
+| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.0.1/ONLY.IGPU.Macmini8.1.zip | 
+| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.0.1/AMD.5500XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.0.1/AMD.5700XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.0.1/AMD.GPU+IGPU.iMac19.1.zip | 
+| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.0.1/ONLY.AMD.GPU.iMacPro1.1.zip | 
 
 ### Acidanthera & Hackintosh Tools  
 https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
 
 | Components    | Version               |
 | ------------- | --------------------- |
-| OpenCorePkg   | 0.7.3    | 
-| AppleALC      | 1.6.4       |
+| OpenCorePkg   | 0.7.4    | 
+| AppleALC      | 1.6.5       |
 | IntelMausi    | 1.0.7     |
 | Lilu          | 1.5.6           |
 | VirtualSMC    | 1.2.7     |
-| WhateverGreen | 1.5.3  |
+| WhateverGreen | 1.5.4  |
 | NVMeFix       | 1.0.9        |
     
 
 ## Changelog
+### 2021/10/28
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOS Big Sur 11.6.1 & Monterey 12.0.1
+    
 ### 2021/09/14
 
     1、upgrade version number & support macOS Big Sur 11.6
