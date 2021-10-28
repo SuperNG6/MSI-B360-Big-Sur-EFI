@@ -11,7 +11,9 @@ AppleALC_TAG=$(wget -qO- https://git.io/Acidanthera-tags | grep 'AppleALC' | cut
 
 # generate Changelog.md
 cat > Changelog.md << EOF
-1、upgrade version number & support macOS Big Sur 11.6
+1、update config.plist
+2、update OpenCorePkg & Kexts to the latest
+3、support macOS Big Sur 11.6.1 & Monterey 12.0.1
 
 | Components    | Version               |
 | ------------- | --------------------- |
