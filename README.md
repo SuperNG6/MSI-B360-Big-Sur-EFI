@@ -25,27 +25,33 @@ https://sleele.com/2019/10/31/opencore-guide/
 
 | SMBIOS        | Platform        | download link | 
 | ------------- | --------------- |  ------------ | 
-| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.1/ONLY.IGPU.Macmini8.1.zip | 
-| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.1/AMD.5500XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.1/AMD.5700XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.1/AMD.GPU+IGPU.iMac19.1.zip | 
-| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.1/ONLY.AMD.GPU.iMacPro1.1.zip | 
+| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.2/ONLY.IGPU.Macmini8.1.zip | 
+| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.2/AMD.5500XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.2/AMD.5700XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.2/AMD.GPU+IGPU.iMac19.1.zip | 
+| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.2/ONLY.AMD.GPU.iMacPro1.1.zip | 
 
 ### Acidanthera & Hackintosh Tools  
 https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
 
 | Components    | Version               |
 | ------------- | --------------------- |
-| OpenCorePkg   | 0.7.6    | 
-| AppleALC      | 1.6.7       |
+| OpenCorePkg   | 0.7.7    | 
+| AppleALC      | 1.6.8       |
 | IntelMausi    | 1.0.7     |
-| Lilu          | 1.5.8           |
+| Lilu          | 1.5.9           |
 | VirtualSMC    | 1.2.8     |
-| WhateverGreen | 1.5.5  |
+| WhateverGreen | 1.5.6  |
 | NVMeFix       | 1.0.9        |
     
 
 ## Changelog
+### 2022/01/31
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOS Monterey 12.2
+    
 ### 2021/12/15
 
     1、update config.plist

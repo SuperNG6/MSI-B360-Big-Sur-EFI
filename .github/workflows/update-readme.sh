@@ -61,6 +61,12 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     
 
 ## Changelog
+### 2022/01/31
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOS Monterey 12.2
+    
 ### 2021/12/15
 
     1、update config.plist
