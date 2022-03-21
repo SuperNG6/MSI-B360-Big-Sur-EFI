@@ -13,7 +13,7 @@ AppleALC_TAG=$(wget -qO- https://git.io/Acidanthera-tags | grep 'AppleALC' | cut
 cat > Changelog.md << EOF
 1、update config.plist
 2、update OpenCorePkg & Kexts to the latest
-3、support macOS Monterey 12.2
+3、support macOS Monterey 12.3
 
 | Components    | Version               |
 | ------------- | --------------------- |
