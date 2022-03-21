@@ -19,7 +19,7 @@ jobs:
           wget -q https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools/releases/download/${TAG}/Core-EFI.zip
 
           unzip -q Core-EFI.zip
-
+          cp -r ./EFI ./AMD\ RX550Lexa+IGPU\ \(iMac19\,1\)/
           cp -r ./EFI ./AMD\ 5500XT+IGPU\ \(iMac19\,1\)/
           cp -r ./EFI ./AMD\ 5700XT+IGPU\ \(iMac19\,1\)/
           cp -r ./EFI ./AMD\ GPU+IGPU\ \(iMac19\,1\)/

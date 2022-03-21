@@ -38,13 +38,14 @@ https://sleele.com/2019/10/31/opencore-guide/
 
 ### Platform Info && Download link
 
-| SMBIOS        | Platform        | download link | 
-| ------------- | --------------- |  ------------ | 
-| Macmini8,1    | ONLY IGPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/ONLY.IGPU.Macmini8.1.zip | 
-| iMac19,1      | AMD 5500XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/AMD.5500XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD 5700XT+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/AMD.5700XT+IGPU.iMac19.1.zip | 
-| iMac19,1      | AMD GPU+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/AMD.GPU+IGPU.iMac19.1.zip | 
-| iMacPro1,1    | ONLY AMD GPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/ONLY.AMD.GPU.iMacPro1.1.zip | 
+| SMBIOS        | Platform           | download link | 
+| ------------- | ------------------ |  ------------ | 
+| Macmini8,1    | ONLY IGPU          | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/ONLY.IGPU.Macmini8.1.zip | 
+| iMac19,1      | AMD RX550Lexa+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/AMD.5500XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD 5500XT+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/AMD.5500XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD 5700XT+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/AMD.5700XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD GPU+IGPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/AMD.GPU+IGPU.iMac19.1.zip | 
+| iMacPro1,1    | ONLY AMD GPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/${ReleaseTag}/ONLY.AMD.GPU.iMacPro1.1.zip | 
 
 ### Acidanthera & Hackintosh Tools  
 https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools  
@@ -61,6 +62,13 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     
 
 ## Changelog
+### 2022/05/14
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOS Monterey 12.3.1
+    4、added support for AMD RX550Lexa+IGPU platform
+    
 ### 2022/03/21
 
     1、update config.plist
