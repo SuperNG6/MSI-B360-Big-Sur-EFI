@@ -26,7 +26,7 @@ https://sleele.com/2019/10/31/opencore-guide/
 | SMBIOS        | Platform           | download link | 
 | ------------- | ------------------ |  ------------ | 
 | Macmini8,1    | ONLY IGPU          | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.3.1/ONLY.IGPU.Macmini8.1.zip | 
-| iMac19,1      | AMD RX550Lexa+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.3.1/AMD.5500XT+IGPU.iMac19.1.zip | 
+| iMac19,1      | AMD RX550Lexa+IGPU | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.3.1/AMD.RX550Lexa+IGPU.iMac19.1.zip | 
 | iMac19,1      | AMD 5500XT+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.3.1/AMD.5500XT+IGPU.iMac19.1.zip | 
 | iMac19,1      | AMD 5700XT+IGPU    | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.3.1/AMD.5700XT+IGPU.iMac19.1.zip | 
 | iMac19,1      | AMD GPU+IGPU       | https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/releases/download/12.3.1/AMD.GPU+IGPU.iMac19.1.zip | 
