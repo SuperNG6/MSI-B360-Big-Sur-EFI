@@ -18,7 +18,7 @@ jobs:
 
       - name: Packaging EFI
         run: |
-          zip -q -r AMD.RX550Lexa+IGPU.iMac19.1.zip ./AMD\ 5500XT+IGPU\ \(iMac19\,1\)
+          zip -q -r AMD.RX550Lexa+IGPU.iMac19.1.zip ./AMD\ RX550Lexa+IGPU\ \(iMac19\,1\)
           zip -q -r AMD.5500XT+IGPU.iMac19.1.zip ./AMD\ 5500XT+IGPU\ \(iMac19\,1\)
           zip -q -r AMD.5700XT+IGPU.iMac19.1.zip ./AMD\ 5700XT+IGPU\ \(iMac19\,1\)
           zip -q -r AMD.GPU+IGPU.iMac19.1.zip ./AMD\ GPU+IGPU\ \(iMac19\,1\)
