@@ -16,7 +16,7 @@ https://sleele.com/2019/07/14/gettingstartedtutorial/
 
 # Wiki  
 https://github.com/SuperNG6/MSI-B360-Big-Sur-EFI/wiki  
-https://sleele.com/2020/04/13/hackintosh-Big-Sur
+[https://sleele.com/2020/04/13/hackintosh-Big-Sur](https://sleele.com/2020/04/13/hackintosh-catalina/)
 
 # OpenCore Guide  
 https://sleele.com/2019/10/31/opencore-guide/
