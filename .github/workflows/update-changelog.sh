@@ -13,8 +13,8 @@ AppleALC_TAG=$(wget -qO- https://raw.githubusercontent.com/SuperNG6/Acidanthera-
 cat > Changelog.md << EOF
 1、update config.plist
 2、update OpenCorePkg & Kexts to the latest
-3、support macOS Monterey 12.3.1
-4、added support for AMD RX550Lexa+IGPU platform
+3、support macOS Monterey 12.4
+4、fixed AMD RX550Lexa Metal GPUFamily macOS 2 support @layui0320
 
 | Components    | Version               |
 | ------------- | --------------------- |

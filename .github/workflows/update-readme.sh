@@ -62,6 +62,13 @@ https://github.com/SuperNG6/Acidanthera-Hackintosh-Tools
     
 
 ## Changelog
+### 2022/06/14
+
+    1、update config.plist
+    2、update OpenCorePkg & Kexts to the latest
+    3、support macOS Monterey 12.4
+    4、fixed AMD RX550Lexa Metal GPUFamily macOS 2 support @layui0320
+    
 ### 2022/05/14
 
     1、update config.plist
