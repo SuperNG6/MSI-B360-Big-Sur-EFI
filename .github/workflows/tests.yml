@@ -1,0 +1,28 @@
+name: tests
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+jobs:
+  ocvalidate:
+    strategy:
+      matrix:
+        path: [
+          'AMD 5500XT+IGPU (iMac19,1)',
+          'AMD 5700XT+IGPU (iMac19,1)',
+          'AMD GPU+IGPU (iMac19,1)',
+          'AMD RX550Lexa+IGPU (iMac19,1)',
+          'ONLY AMD GPU (iMacPro1,1)',
+          'ONLY IGPU (Macmini8,1)',
+        ]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: brokeyourbike/ocvalidate-action@v0.3
+        with:
+          opencore-version: '0.8.1'
+          release: true
+
+      - run: ocvalidate "${{ matrix.path }}/EFI/OC/config.plist"
